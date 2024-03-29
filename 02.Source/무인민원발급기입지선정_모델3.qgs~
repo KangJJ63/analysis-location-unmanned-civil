@@ -1,0 +1,3507 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.4.8-Madeira">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>28043</srsid>
+      <srid>5179</srid>
+      <authid>EPSG:5179</authid>
+      <description>Korea 2000 / Unified CS</description>
+      <projectionacronym>tmerc</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer providerKey="delimitedtext" expanded="1" source="file:///C:/19Project/07.UCK/01.Data/03.Data_Preprocessing/01.Kiosk/Reference_Data/kiosk_list_gid.csv?encoding=System&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="kiosk_list_gid_264301ac_13c4_473e_85dd_4532b37483dc" name="발급기_리스트" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" expanded="1" source="../01.Data/02.Use_Data/GID.shp" id="GID_1c90a59e_e440_4356_84bb_8b76d1d8bf71" name="GID" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" expanded="1" source="../01.Data/02.Use_Data/Tot_10.shp" id="Tot10_3e06b7f9_9b57_45ea_aae9_e0419028a696" name="인구10월(격자)" checked="Qt::Unchecked">
+      <customproperties>
+        <property key="showFeatureCount" value="1"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" expanded="1" source="../01.Data/02.Use_Data/Tot_04.shp" id="Tot04_66ee653c_1296_489f_b60a_51119c08bce5" name="인구4월(격자)" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="delimitedtext" expanded="1" source="file:///C:/19Project/07.UCK/01.Data/03.Data_Preprocessing/01.Kiosk/Kiosk_Data_Preprocessing.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="Kiosk_Data_Preprocessing_5c1ff785_c49e_42af_81d0_d8cb163499f3" name="민원발급신청인과 무인발급기간 거리" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="delimitedtext" expanded="1" source="file:///C:/19Project/07.UCK/01.Data/03.Data_Preprocessing/02.DB_Pub_Counter/DB_Pub_Counter_Data_Preprocessing.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="DB_Pub_Counter_Data_Preprocessing_00955311_1f27_4209_8b47_e444aa25d5b8" name="민원발급신청인과 창구 간 거리" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="delimitedtext" expanded="1" source="file:///C:/19Project/07.UCK/03.Output/07.Modeling/output_summary.txt?encoding=EUC-KR&amp;type=csv&amp;delimiter=%5Ct%7C&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="output_summary_736ef091_fdc1_434b_b403_e054946c2752" name="서비스인구_및_예측결과" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="delimitedtext" expanded="1" source="file:///C:/19Project/07.UCK/03.Output/04.SSGI/SSGI_Select_Area.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="SSGI_Select_Area_16406b73_b4e1_468e_a1dc_77f29a0554d1" name="소상공인현황" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" expanded="1" source="../01.Data/02.Use_Data/EMD.shp" id="EMD_09d4e54c_a8f8_4ccd_9d66_87653ec5a4e6" name="읍면동경계" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="ogr" expanded="1" source="../01.Data/02.Use_Data/jyd.shp" id="jyd_5f41d50f_a7de_429d_a564_f6b63d69b127" name="주용도코드" checked="Qt::Unchecked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="delimitedtext" expanded="1" source="file:///C:/19Project/07.UCK/01.Data/03.Data_Preprocessing/07.NGII_Pop/NGII_Tot_Eld_WAG.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="NGII_Tot_Eld_WAG_ea5c4107_a09c_4b30_aca7_120f42866170" name="인구증감" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer providerKey="delimitedtext" expanded="1" source="file:///C:/19Project/07.UCK/01.Data/03.Data_Preprocessing/06.Bus_Stop/Bus_Stop_380m_800m_Buff_Count.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="Bus_Stop_380m_800m_Buff_Count_f56d2c73_7289_46a6_8b23_2367c25e919f" name="버스정류소" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>Tot10_3e06b7f9_9b57_45ea_aae9_e0419028a696</item>
+      <item>jyd_5f41d50f_a7de_429d_a564_f6b63d69b127</item>
+      <item>Tot04_66ee653c_1296_489f_b60a_51119c08bce5</item>
+      <item>EMD_09d4e54c_a8f8_4ccd_9d66_87653ec5a4e6</item>
+      <item>GID_1c90a59e_e440_4356_84bb_8b76d1d8bf71</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" tolerance="12" unit="1" intersection-snapping="0" mode="2" type="1">
+    <individual-layer-settings>
+      <layer-setting enabled="0" tolerance="12" id="jyd_5f41d50f_a7de_429d_a564_f6b63d69b127" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="Tot10_3e06b7f9_9b57_45ea_aae9_e0419028a696" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="GID_1c90a59e_e440_4356_84bb_8b76d1d8bf71" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="EMD_09d4e54c_a8f8_4ccd_9d66_87653ec5a4e6" units="1" type="1"/>
+      <layer-setting enabled="0" tolerance="12" id="Tot04_66ee653c_1296_489f_b60a_51119c08bce5" units="1" type="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>930601.25430615898221731</xmin>
+      <ymin>1939644.88724319753237069</ymin>
+      <xmax>943384.22889999113976955</xmax>
+      <ymax>1951357.99545232648961246</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>28043</srsid>
+        <srid>5179</srid>
+        <authid>EPSG:5179</authid>
+        <description>Korea 2000 / Unified CS</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" open="true" name="발급기_리스트" checked="Qt::Checked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="kiosk_list_gid_264301ac_13c4_473e_85dd_4532b37483dc"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="GID" checked="Qt::Unchecked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="GID_1c90a59e_e440_4356_84bb_8b76d1d8bf71"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="1" open="true" name="인구10월(격자)" checked="Qt::Unchecked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="Tot10_3e06b7f9_9b57_45ea_aae9_e0419028a696"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="인구4월(격자)" checked="Qt::Unchecked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="Tot04_66ee653c_1296_489f_b60a_51119c08bce5"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="민원발급신청인과 무인발급기간 거리" checked="Qt::Checked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Kiosk_Data_Preprocessing_5c1ff785_c49e_42af_81d0_d8cb163499f3"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="민원발급신청인과 창구 간 거리" checked="Qt::Checked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="DB_Pub_Counter_Data_Preprocessing_00955311_1f27_4209_8b47_e444aa25d5b8"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="서비스인구_및_예측결과" checked="Qt::Checked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="output_summary_736ef091_fdc1_434b_b403_e054946c2752"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="소상공인현황" checked="Qt::Checked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="SSGI_Select_Area_16406b73_b4e1_468e_a1dc_77f29a0554d1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="읍면동경계" checked="Qt::Unchecked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="EMD_09d4e54c_a8f8_4ccd_9d66_87653ec5a4e6"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="주용도코드" checked="Qt::Unchecked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="0" isInOverview="0" layerid="jyd_5f41d50f_a7de_429d_a564_f6b63d69b127"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="인구증감" checked="Qt::Checked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="NGII_Tot_Eld_WAG_ea5c4107_a09c_4b30_aca7_120f42866170"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" open="true" name="버스정류소" checked="Qt::Checked" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile visible="1" isInOverview="0" layerid="Bus_Stop_380m_800m_Buff_Count_f56d2c73_7289_46a6_8b23_2367c25e919f"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>-0.22917060405805501</xmin>
+      <ymin>-0.05342937899946065</ymin>
+      <xmax>0.22917060405805501</xmax>
+      <ymax>0.05342937899946065</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>-0.22917060405805501</xmin>
+      <ymin>-0.05342937899946065</ymin>
+      <xmax>0.22917060405805501</xmax>
+      <ymax>0.05342937899946065</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>-0.22917060405805501</xmin>
+      <ymin>-0.05342937899946065</ymin>
+      <xmax>0.22917060405805501</xmax>
+      <ymax>0.05342937899946065</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="No geometry" readOnly="0" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0">
+      <id>Bus_Stop_380m_800m_Buff_Count_f56d2c73_7289_46a6_8b23_2367c25e919f</id>
+      <datasource>file:../01.Data/03.Data_Preprocessing/06.Bus_Stop/Bus_Stop_380m_800m_Buff_Count.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>버스정류소</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="EUC-KR">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;gid&quot;"/>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BS_380">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BS_800">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+        <alias index="1" name="" field="BS"/>
+        <alias index="2" name="" field="BS_380"/>
+        <alias index="3" name="" field="BS_800"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="gid" expression=""/>
+        <default applyOnUpdate="0" field="BS" expression=""/>
+        <default applyOnUpdate="0" field="BS_380" expression=""/>
+        <default applyOnUpdate="0" field="BS_800" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="BS"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="BS_380"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="BS_800"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="gid"/>
+        <constraint exp="" desc="" field="BS"/>
+        <constraint exp="" desc="" field="BS_380"/>
+        <constraint exp="" desc="" field="BS_800"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" name="gid" hidden="0" type="field"/>
+          <column width="-1" name="BS" hidden="0" type="field"/>
+          <column width="-1" name="BS_380" hidden="0" type="field"/>
+          <column width="-1" name="BS_800" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"gid"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="No geometry" readOnly="0" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0">
+      <id>DB_Pub_Counter_Data_Preprocessing_00955311_1f27_4209_8b47_e444aa25d5b8</id>
+      <datasource>file:../01.Data/03.Data_Preprocessing/02.DB_Pub_Counter/DB_Pub_Counter_Data_Preprocessing.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>민원발급신청인과 창구 간 거리</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="EUC-KR">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties/>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="uni_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_d_c">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dt_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hr_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cd_dngcho">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cd_issue">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cd_koreng">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cd_prvpub">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cd_reciev">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sex_apl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="age_apl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_svr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_svr_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="add_apl">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="x_app_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y_app_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="res_geo_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="a_gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_d_addr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="x_d_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y_d_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dist_g">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="m_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ym_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="h_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="h_ran">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="age_ran">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="jj">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="count">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="in_out">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="uni_id"/>
+        <alias index="1" name="" field="nm_d_c"/>
+        <alias index="2" name="" field="dt_mw"/>
+        <alias index="3" name="" field="hr_mw"/>
+        <alias index="4" name="" field="cd_dngcho"/>
+        <alias index="5" name="" field="cd_issue"/>
+        <alias index="6" name="" field="cd_koreng"/>
+        <alias index="7" name="" field="cd_prvpub"/>
+        <alias index="8" name="" field="cd_reciev"/>
+        <alias index="9" name="" field="sex_apl"/>
+        <alias index="10" name="" field="age_apl"/>
+        <alias index="11" name="" field="nm_svr"/>
+        <alias index="12" name="" field="nm_svr_id"/>
+        <alias index="13" name="" field="add_apl"/>
+        <alias index="14" name="" field="x_app_uk"/>
+        <alias index="15" name="" field="y_app_uk"/>
+        <alias index="16" name="" field="res_geo_mw"/>
+        <alias index="17" name="" field="a_gid"/>
+        <alias index="18" name="" field="nm_d_addr"/>
+        <alias index="19" name="" field="x_d_uk"/>
+        <alias index="20" name="" field="y_d_uk"/>
+        <alias index="21" name="" field="d_gid"/>
+        <alias index="22" name="" field="dist_g"/>
+        <alias index="23" name="" field="y_reg_mw"/>
+        <alias index="24" name="" field="m_reg_mw"/>
+        <alias index="25" name="" field="ym_reg_mw"/>
+        <alias index="26" name="" field="h_reg_mw"/>
+        <alias index="27" name="" field="d_reg_mw"/>
+        <alias index="28" name="" field="h_ran"/>
+        <alias index="29" name="" field="age_ran"/>
+        <alias index="30" name="" field="jj"/>
+        <alias index="31" name="" field="count"/>
+        <alias index="32" name="" field="in_out"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="uni_id" expression=""/>
+        <default applyOnUpdate="0" field="nm_d_c" expression=""/>
+        <default applyOnUpdate="0" field="dt_mw" expression=""/>
+        <default applyOnUpdate="0" field="hr_mw" expression=""/>
+        <default applyOnUpdate="0" field="cd_dngcho" expression=""/>
+        <default applyOnUpdate="0" field="cd_issue" expression=""/>
+        <default applyOnUpdate="0" field="cd_koreng" expression=""/>
+        <default applyOnUpdate="0" field="cd_prvpub" expression=""/>
+        <default applyOnUpdate="0" field="cd_reciev" expression=""/>
+        <default applyOnUpdate="0" field="sex_apl" expression=""/>
+        <default applyOnUpdate="0" field="age_apl" expression=""/>
+        <default applyOnUpdate="0" field="nm_svr" expression=""/>
+        <default applyOnUpdate="0" field="nm_svr_id" expression=""/>
+        <default applyOnUpdate="0" field="add_apl" expression=""/>
+        <default applyOnUpdate="0" field="x_app_uk" expression=""/>
+        <default applyOnUpdate="0" field="y_app_uk" expression=""/>
+        <default applyOnUpdate="0" field="res_geo_mw" expression=""/>
+        <default applyOnUpdate="0" field="a_gid" expression=""/>
+        <default applyOnUpdate="0" field="nm_d_addr" expression=""/>
+        <default applyOnUpdate="0" field="x_d_uk" expression=""/>
+        <default applyOnUpdate="0" field="y_d_uk" expression=""/>
+        <default applyOnUpdate="0" field="d_gid" expression=""/>
+        <default applyOnUpdate="0" field="dist_g" expression=""/>
+        <default applyOnUpdate="0" field="y_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="m_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="ym_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="h_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="d_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="h_ran" expression=""/>
+        <default applyOnUpdate="0" field="age_ran" expression=""/>
+        <default applyOnUpdate="0" field="jj" expression=""/>
+        <default applyOnUpdate="0" field="count" expression=""/>
+        <default applyOnUpdate="0" field="in_out" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="uni_id"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_d_c"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="dt_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="hr_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="cd_dngcho"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="cd_issue"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="cd_koreng"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="cd_prvpub"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="cd_reciev"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="sex_apl"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="age_apl"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_svr"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_svr_id"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="add_apl"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="x_app_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="y_app_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="res_geo_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="a_gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_d_addr"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="x_d_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="y_d_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="d_gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="dist_g"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="y_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="m_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="ym_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="h_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="d_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="h_ran"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="age_ran"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="jj"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="count"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="in_out"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="uni_id"/>
+        <constraint exp="" desc="" field="nm_d_c"/>
+        <constraint exp="" desc="" field="dt_mw"/>
+        <constraint exp="" desc="" field="hr_mw"/>
+        <constraint exp="" desc="" field="cd_dngcho"/>
+        <constraint exp="" desc="" field="cd_issue"/>
+        <constraint exp="" desc="" field="cd_koreng"/>
+        <constraint exp="" desc="" field="cd_prvpub"/>
+        <constraint exp="" desc="" field="cd_reciev"/>
+        <constraint exp="" desc="" field="sex_apl"/>
+        <constraint exp="" desc="" field="age_apl"/>
+        <constraint exp="" desc="" field="nm_svr"/>
+        <constraint exp="" desc="" field="nm_svr_id"/>
+        <constraint exp="" desc="" field="add_apl"/>
+        <constraint exp="" desc="" field="x_app_uk"/>
+        <constraint exp="" desc="" field="y_app_uk"/>
+        <constraint exp="" desc="" field="res_geo_mw"/>
+        <constraint exp="" desc="" field="a_gid"/>
+        <constraint exp="" desc="" field="nm_d_addr"/>
+        <constraint exp="" desc="" field="x_d_uk"/>
+        <constraint exp="" desc="" field="y_d_uk"/>
+        <constraint exp="" desc="" field="d_gid"/>
+        <constraint exp="" desc="" field="dist_g"/>
+        <constraint exp="" desc="" field="y_reg_mw"/>
+        <constraint exp="" desc="" field="m_reg_mw"/>
+        <constraint exp="" desc="" field="ym_reg_mw"/>
+        <constraint exp="" desc="" field="h_reg_mw"/>
+        <constraint exp="" desc="" field="d_reg_mw"/>
+        <constraint exp="" desc="" field="h_ran"/>
+        <constraint exp="" desc="" field="age_ran"/>
+        <constraint exp="" desc="" field="jj"/>
+        <constraint exp="" desc="" field="count"/>
+        <constraint exp="" desc="" field="in_out"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingTol="1" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyLocal="1" simplifyDrawingHints="1" readOnly="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" type="vector" simplifyAlgorithm="0" autoRefreshEnabled="0">
+      <extent>
+        <xmin>932961.08850097435060889</xmin>
+        <ymin>1940123.39947509719058871</ymin>
+        <xmax>941071.44250488048419356</xmax>
+        <ymax>1950797.12162675405852497</ymax>
+      </extent>
+      <id>EMD_09d4e54c_a8f8_4ccd_9d66_87653ec5a4e6</id>
+      <datasource>../01.Data/02.Use_Data/EMD.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>읍면동경계</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28043</srsid>
+          <srid>5179</srid>
+          <authid>EPSG:5179</authid>
+          <description>Korea 2000 / Unified CS</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="183,72,75,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"SIDO_NM"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="BASE_YEAR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADM_DR_CD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADM_DR_NM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HJD_CD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SGG_NM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SGG_CD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SIDO_NM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SIDO_CD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="BASE_YEAR"/>
+        <alias index="1" name="" field="ADM_DR_CD"/>
+        <alias index="2" name="" field="ADM_DR_NM"/>
+        <alias index="3" name="" field="HJD_CD"/>
+        <alias index="4" name="" field="SGG_NM"/>
+        <alias index="5" name="" field="SGG_CD"/>
+        <alias index="6" name="" field="SIDO_NM"/>
+        <alias index="7" name="" field="SIDO_CD"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="BASE_YEAR" expression=""/>
+        <default applyOnUpdate="0" field="ADM_DR_CD" expression=""/>
+        <default applyOnUpdate="0" field="ADM_DR_NM" expression=""/>
+        <default applyOnUpdate="0" field="HJD_CD" expression=""/>
+        <default applyOnUpdate="0" field="SGG_NM" expression=""/>
+        <default applyOnUpdate="0" field="SGG_CD" expression=""/>
+        <default applyOnUpdate="0" field="SIDO_NM" expression=""/>
+        <default applyOnUpdate="0" field="SIDO_CD" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="BASE_YEAR"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="ADM_DR_CD"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="ADM_DR_NM"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="HJD_CD"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="SGG_NM"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="SGG_CD"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="SIDO_NM"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="SIDO_CD"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="BASE_YEAR"/>
+        <constraint exp="" desc="" field="ADM_DR_CD"/>
+        <constraint exp="" desc="" field="ADM_DR_NM"/>
+        <constraint exp="" desc="" field="HJD_CD"/>
+        <constraint exp="" desc="" field="SGG_NM"/>
+        <constraint exp="" desc="" field="SGG_CD"/>
+        <constraint exp="" desc="" field="SIDO_NM"/>
+        <constraint exp="" desc="" field="SIDO_CD"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" name="BASE_YEAR" hidden="0" type="field"/>
+          <column width="-1" name="ADM_DR_CD" hidden="0" type="field"/>
+          <column width="-1" name="ADM_DR_NM" hidden="0" type="field"/>
+          <column width="-1" name="HJD_CD" hidden="0" type="field"/>
+          <column width="-1" name="SGG_NM" hidden="0" type="field"/>
+          <column width="-1" name="SGG_CD" hidden="0" type="field"/>
+          <column width="-1" name="SIDO_NM" hidden="0" type="field"/>
+          <column width="-1" name="SIDO_CD" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"SIDO_NM"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingTol="1" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyLocal="1" simplifyDrawingHints="1" readOnly="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" type="vector" simplifyAlgorithm="0" autoRefreshEnabled="0">
+      <extent>
+        <xmin>932750</xmin>
+        <ymin>1940000</ymin>
+        <xmax>941250</xmax>
+        <ymax>1951000</ymax>
+      </extent>
+      <id>GID_1c90a59e_e440_4356_84bb_8b76d1d8bf71</id>
+      <datasource>../01.Data/02.Use_Data/GID.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>GID</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28043</srsid>
+          <srid>5179</srid>
+          <authid>EPSG:5179</authid>
+          <description>Korea 2000 / Unified CS</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="164,113,88,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"gid"</value>
+        </property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="gid" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="gid"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="gid"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" name="gid" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"gid"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="No geometry" readOnly="0" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0">
+      <id>Kiosk_Data_Preprocessing_5c1ff785_c49e_42af_81d0_d8cb163499f3</id>
+      <datasource>file:../01.Data/03.Data_Preprocessing/01.Kiosk/Kiosk_Data_Preprocessing.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>민원발급신청인과 무인발급기간 거리</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="EUC-KR">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;uni_id&quot;"/>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="uni_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="num_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_k_c">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bir_app_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="num_min_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_min_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dat_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tim_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="d_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="apply_addr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="x_app_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y_app_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="res_geo_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="a_gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_k_cf">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="k_char">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="addr_k">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="x_k_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y_k_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="k_gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dist_g">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="m_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ym_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="h_reg_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="h_ran">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="certi_mag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_certi_mag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y_bir_app">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="age_mw">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="age_ran">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="jj">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="count">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="in_out">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="uni_id"/>
+        <alias index="1" name="" field="num_mw"/>
+        <alias index="2" name="" field="nm_k_c"/>
+        <alias index="3" name="" field="bir_app_mw"/>
+        <alias index="4" name="" field="num_min_mw"/>
+        <alias index="5" name="" field="nm_min_mw"/>
+        <alias index="6" name="" field="dat_reg_mw"/>
+        <alias index="7" name="" field="tim_reg_mw"/>
+        <alias index="8" name="" field="d_reg_mw"/>
+        <alias index="9" name="" field="apply_addr"/>
+        <alias index="10" name="" field="x_app_uk"/>
+        <alias index="11" name="" field="y_app_uk"/>
+        <alias index="12" name="" field="res_geo_mw"/>
+        <alias index="13" name="" field="a_gid"/>
+        <alias index="14" name="" field="nm_k_cf"/>
+        <alias index="15" name="" field="k_char"/>
+        <alias index="16" name="" field="addr_k"/>
+        <alias index="17" name="" field="x_k_uk"/>
+        <alias index="18" name="" field="y_k_uk"/>
+        <alias index="19" name="" field="k_gid"/>
+        <alias index="20" name="" field="dist_g"/>
+        <alias index="21" name="" field="y_reg_mw"/>
+        <alias index="22" name="" field="m_reg_mw"/>
+        <alias index="23" name="" field="ym_reg_mw"/>
+        <alias index="24" name="" field="h_reg_mw"/>
+        <alias index="25" name="" field="h_ran"/>
+        <alias index="26" name="" field="certi_mag"/>
+        <alias index="27" name="" field="nm_certi_mag"/>
+        <alias index="28" name="" field="y_bir_app"/>
+        <alias index="29" name="" field="age_mw"/>
+        <alias index="30" name="" field="age_ran"/>
+        <alias index="31" name="" field="jj"/>
+        <alias index="32" name="" field="count"/>
+        <alias index="33" name="" field="in_out"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="uni_id" expression=""/>
+        <default applyOnUpdate="0" field="num_mw" expression=""/>
+        <default applyOnUpdate="0" field="nm_k_c" expression=""/>
+        <default applyOnUpdate="0" field="bir_app_mw" expression=""/>
+        <default applyOnUpdate="0" field="num_min_mw" expression=""/>
+        <default applyOnUpdate="0" field="nm_min_mw" expression=""/>
+        <default applyOnUpdate="0" field="dat_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="tim_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="d_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="apply_addr" expression=""/>
+        <default applyOnUpdate="0" field="x_app_uk" expression=""/>
+        <default applyOnUpdate="0" field="y_app_uk" expression=""/>
+        <default applyOnUpdate="0" field="res_geo_mw" expression=""/>
+        <default applyOnUpdate="0" field="a_gid" expression=""/>
+        <default applyOnUpdate="0" field="nm_k_cf" expression=""/>
+        <default applyOnUpdate="0" field="k_char" expression=""/>
+        <default applyOnUpdate="0" field="addr_k" expression=""/>
+        <default applyOnUpdate="0" field="x_k_uk" expression=""/>
+        <default applyOnUpdate="0" field="y_k_uk" expression=""/>
+        <default applyOnUpdate="0" field="k_gid" expression=""/>
+        <default applyOnUpdate="0" field="dist_g" expression=""/>
+        <default applyOnUpdate="0" field="y_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="m_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="ym_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="h_reg_mw" expression=""/>
+        <default applyOnUpdate="0" field="h_ran" expression=""/>
+        <default applyOnUpdate="0" field="certi_mag" expression=""/>
+        <default applyOnUpdate="0" field="nm_certi_mag" expression=""/>
+        <default applyOnUpdate="0" field="y_bir_app" expression=""/>
+        <default applyOnUpdate="0" field="age_mw" expression=""/>
+        <default applyOnUpdate="0" field="age_ran" expression=""/>
+        <default applyOnUpdate="0" field="jj" expression=""/>
+        <default applyOnUpdate="0" field="count" expression=""/>
+        <default applyOnUpdate="0" field="in_out" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="uni_id"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="num_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_k_c"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="bir_app_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="num_min_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_min_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="dat_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="tim_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="d_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="apply_addr"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="x_app_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="y_app_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="res_geo_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="a_gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_k_cf"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="k_char"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="addr_k"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="x_k_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="y_k_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="k_gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="dist_g"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="y_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="m_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="ym_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="h_reg_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="h_ran"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="certi_mag"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_certi_mag"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="y_bir_app"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="age_mw"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="age_ran"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="jj"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="count"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="in_out"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="uni_id"/>
+        <constraint exp="" desc="" field="num_mw"/>
+        <constraint exp="" desc="" field="nm_k_c"/>
+        <constraint exp="" desc="" field="bir_app_mw"/>
+        <constraint exp="" desc="" field="num_min_mw"/>
+        <constraint exp="" desc="" field="nm_min_mw"/>
+        <constraint exp="" desc="" field="dat_reg_mw"/>
+        <constraint exp="" desc="" field="tim_reg_mw"/>
+        <constraint exp="" desc="" field="d_reg_mw"/>
+        <constraint exp="" desc="" field="apply_addr"/>
+        <constraint exp="" desc="" field="x_app_uk"/>
+        <constraint exp="" desc="" field="y_app_uk"/>
+        <constraint exp="" desc="" field="res_geo_mw"/>
+        <constraint exp="" desc="" field="a_gid"/>
+        <constraint exp="" desc="" field="nm_k_cf"/>
+        <constraint exp="" desc="" field="k_char"/>
+        <constraint exp="" desc="" field="addr_k"/>
+        <constraint exp="" desc="" field="x_k_uk"/>
+        <constraint exp="" desc="" field="y_k_uk"/>
+        <constraint exp="" desc="" field="k_gid"/>
+        <constraint exp="" desc="" field="dist_g"/>
+        <constraint exp="" desc="" field="y_reg_mw"/>
+        <constraint exp="" desc="" field="m_reg_mw"/>
+        <constraint exp="" desc="" field="ym_reg_mw"/>
+        <constraint exp="" desc="" field="h_reg_mw"/>
+        <constraint exp="" desc="" field="h_ran"/>
+        <constraint exp="" desc="" field="certi_mag"/>
+        <constraint exp="" desc="" field="nm_certi_mag"/>
+        <constraint exp="" desc="" field="y_bir_app"/>
+        <constraint exp="" desc="" field="age_mw"/>
+        <constraint exp="" desc="" field="age_ran"/>
+        <constraint exp="" desc="" field="jj"/>
+        <constraint exp="" desc="" field="count"/>
+        <constraint exp="" desc="" field="in_out"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" name="uni_id" hidden="0" type="field"/>
+          <column width="-1" name="num_mw" hidden="0" type="field"/>
+          <column width="-1" name="nm_k_c" hidden="0" type="field"/>
+          <column width="-1" name="bir_app_mw" hidden="0" type="field"/>
+          <column width="-1" name="num_min_mw" hidden="0" type="field"/>
+          <column width="-1" name="nm_min_mw" hidden="0" type="field"/>
+          <column width="-1" name="dat_reg_mw" hidden="0" type="field"/>
+          <column width="-1" name="tim_reg_mw" hidden="0" type="field"/>
+          <column width="-1" name="d_reg_mw" hidden="0" type="field"/>
+          <column width="-1" name="apply_addr" hidden="0" type="field"/>
+          <column width="-1" name="x_app_uk" hidden="0" type="field"/>
+          <column width="-1" name="y_app_uk" hidden="0" type="field"/>
+          <column width="-1" name="res_geo_mw" hidden="0" type="field"/>
+          <column width="-1" name="a_gid" hidden="0" type="field"/>
+          <column width="-1" name="nm_k_cf" hidden="0" type="field"/>
+          <column width="-1" name="k_char" hidden="0" type="field"/>
+          <column width="-1" name="addr_k" hidden="0" type="field"/>
+          <column width="-1" name="x_k_uk" hidden="0" type="field"/>
+          <column width="-1" name="y_k_uk" hidden="0" type="field"/>
+          <column width="-1" name="k_gid" hidden="0" type="field"/>
+          <column width="-1" name="dist_g" hidden="0" type="field"/>
+          <column width="-1" name="y_reg_mw" hidden="0" type="field"/>
+          <column width="-1" name="m_reg_mw" hidden="0" type="field"/>
+          <column width="-1" name="ym_reg_mw" hidden="0" type="field"/>
+          <column width="-1" name="h_reg_mw" hidden="0" type="field"/>
+          <column width="-1" name="h_ran" hidden="0" type="field"/>
+          <column width="-1" name="certi_mag" hidden="0" type="field"/>
+          <column width="-1" name="nm_certi_mag" hidden="0" type="field"/>
+          <column width="-1" name="y_bir_app" hidden="0" type="field"/>
+          <column width="-1" name="age_mw" hidden="0" type="field"/>
+          <column width="-1" name="age_ran" hidden="0" type="field"/>
+          <column width="-1" name="jj" hidden="0" type="field"/>
+          <column width="-1" name="count" hidden="0" type="field"/>
+          <column width="-1" name="in_out" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"uni_id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="No geometry" readOnly="0" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0">
+      <id>NGII_Tot_Eld_WAG_ea5c4107_a09c_4b30_aca7_120f42866170</id>
+      <datasource>file:../01.Data/03.Data_Preprocessing/07.NGII_Pop/NGII_Tot_Eld_WAG.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>인구증감</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="EUC-KR">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;gid&quot;"/>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Tot_04">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Tot_10">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Eld_04">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Eld_10">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WAG_04">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WAG_10">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Tot10-04">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Eld10-04">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WAG10-04">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+        <alias index="1" name="" field="Tot_04"/>
+        <alias index="2" name="" field="Tot_10"/>
+        <alias index="3" name="" field="Eld_04"/>
+        <alias index="4" name="" field="Eld_10"/>
+        <alias index="5" name="" field="WAG_04"/>
+        <alias index="6" name="" field="WAG_10"/>
+        <alias index="7" name="" field="Tot10-04"/>
+        <alias index="8" name="" field="Eld10-04"/>
+        <alias index="9" name="" field="WAG10-04"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="gid" expression=""/>
+        <default applyOnUpdate="0" field="Tot_04" expression=""/>
+        <default applyOnUpdate="0" field="Tot_10" expression=""/>
+        <default applyOnUpdate="0" field="Eld_04" expression=""/>
+        <default applyOnUpdate="0" field="Eld_10" expression=""/>
+        <default applyOnUpdate="0" field="WAG_04" expression=""/>
+        <default applyOnUpdate="0" field="WAG_10" expression=""/>
+        <default applyOnUpdate="0" field="Tot10-04" expression=""/>
+        <default applyOnUpdate="0" field="Eld10-04" expression=""/>
+        <default applyOnUpdate="0" field="WAG10-04" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Tot_04"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Tot_10"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Eld_04"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Eld_10"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="WAG_04"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="WAG_10"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Tot10-04"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Eld10-04"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="WAG10-04"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="gid"/>
+        <constraint exp="" desc="" field="Tot_04"/>
+        <constraint exp="" desc="" field="Tot_10"/>
+        <constraint exp="" desc="" field="Eld_04"/>
+        <constraint exp="" desc="" field="Eld_10"/>
+        <constraint exp="" desc="" field="WAG_04"/>
+        <constraint exp="" desc="" field="WAG_10"/>
+        <constraint exp="" desc="" field="Tot10-04"/>
+        <constraint exp="" desc="" field="Eld10-04"/>
+        <constraint exp="" desc="" field="WAG10-04"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="&quot;gid&quot;">
+        <columns>
+          <column width="-1" name="gid" hidden="0" type="field"/>
+          <column width="-1" name="Tot_04" hidden="0" type="field"/>
+          <column width="-1" name="Tot_10" hidden="0" type="field"/>
+          <column width="-1" name="Eld_04" hidden="0" type="field"/>
+          <column width="-1" name="Eld_10" hidden="0" type="field"/>
+          <column width="-1" name="WAG_04" hidden="0" type="field"/>
+          <column width="-1" name="WAG_10" hidden="0" type="field"/>
+          <column width="-1" name="Tot10-04" hidden="0" type="field"/>
+          <column width="-1" name="Eld10-04" hidden="0" type="field"/>
+          <column width="-1" name="WAG10-04" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"gid"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="No geometry" readOnly="0" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0">
+      <id>SSGI_Select_Area_16406b73_b4e1_468e_a1dc_77f29a0554d1</id>
+      <datasource>file:../03.Output/04.SSGI/SSGI_Select_Area.csv?encoding=EUC-KR&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>소상공인현황</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="EUC-KR">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="dualview/previewExpressions" value="&quot;s_gid&quot;"/>
+      </customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="BZ_NUM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BZ_NM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CD_BZ_L">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NM_BZ_L">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CD_BZ_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NM_BZ_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CD_BZ_S">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NM_BZ_S">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SIG_NM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BZ_ADDR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BZ_RD_ADDR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="X_WG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Y_WG">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="s_gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="BZ_NUM"/>
+        <alias index="1" name="" field="BZ_NM"/>
+        <alias index="2" name="" field="CD_BZ_L"/>
+        <alias index="3" name="" field="NM_BZ_L"/>
+        <alias index="4" name="" field="CD_BZ_M"/>
+        <alias index="5" name="" field="NM_BZ_M"/>
+        <alias index="6" name="" field="CD_BZ_S"/>
+        <alias index="7" name="" field="NM_BZ_S"/>
+        <alias index="8" name="" field="SIG_NM"/>
+        <alias index="9" name="" field="BZ_ADDR"/>
+        <alias index="10" name="" field="BZ_RD_ADDR"/>
+        <alias index="11" name="" field="X_WG"/>
+        <alias index="12" name="" field="Y_WG"/>
+        <alias index="13" name="" field="s_gid"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="BZ_NUM" expression=""/>
+        <default applyOnUpdate="0" field="BZ_NM" expression=""/>
+        <default applyOnUpdate="0" field="CD_BZ_L" expression=""/>
+        <default applyOnUpdate="0" field="NM_BZ_L" expression=""/>
+        <default applyOnUpdate="0" field="CD_BZ_M" expression=""/>
+        <default applyOnUpdate="0" field="NM_BZ_M" expression=""/>
+        <default applyOnUpdate="0" field="CD_BZ_S" expression=""/>
+        <default applyOnUpdate="0" field="NM_BZ_S" expression=""/>
+        <default applyOnUpdate="0" field="SIG_NM" expression=""/>
+        <default applyOnUpdate="0" field="BZ_ADDR" expression=""/>
+        <default applyOnUpdate="0" field="BZ_RD_ADDR" expression=""/>
+        <default applyOnUpdate="0" field="X_WG" expression=""/>
+        <default applyOnUpdate="0" field="Y_WG" expression=""/>
+        <default applyOnUpdate="0" field="s_gid" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="BZ_NUM"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="BZ_NM"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="CD_BZ_L"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="NM_BZ_L"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="CD_BZ_M"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="NM_BZ_M"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="CD_BZ_S"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="NM_BZ_S"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="SIG_NM"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="BZ_ADDR"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="BZ_RD_ADDR"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="X_WG"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Y_WG"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="s_gid"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="BZ_NUM"/>
+        <constraint exp="" desc="" field="BZ_NM"/>
+        <constraint exp="" desc="" field="CD_BZ_L"/>
+        <constraint exp="" desc="" field="NM_BZ_L"/>
+        <constraint exp="" desc="" field="CD_BZ_M"/>
+        <constraint exp="" desc="" field="NM_BZ_M"/>
+        <constraint exp="" desc="" field="CD_BZ_S"/>
+        <constraint exp="" desc="" field="NM_BZ_S"/>
+        <constraint exp="" desc="" field="SIG_NM"/>
+        <constraint exp="" desc="" field="BZ_ADDR"/>
+        <constraint exp="" desc="" field="BZ_RD_ADDR"/>
+        <constraint exp="" desc="" field="X_WG"/>
+        <constraint exp="" desc="" field="Y_WG"/>
+        <constraint exp="" desc="" field="s_gid"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" name="BZ_NUM" hidden="0" type="field"/>
+          <column width="-1" name="BZ_NM" hidden="0" type="field"/>
+          <column width="-1" name="CD_BZ_L" hidden="0" type="field"/>
+          <column width="-1" name="NM_BZ_L" hidden="0" type="field"/>
+          <column width="-1" name="CD_BZ_M" hidden="0" type="field"/>
+          <column width="-1" name="NM_BZ_M" hidden="0" type="field"/>
+          <column width="-1" name="CD_BZ_S" hidden="0" type="field"/>
+          <column width="-1" name="NM_BZ_S" hidden="0" type="field"/>
+          <column width="-1" name="SIG_NM" hidden="0" type="field"/>
+          <column width="-1" name="BZ_ADDR" hidden="0" type="field"/>
+          <column width="-1" name="BZ_RD_ADDR" hidden="0" type="field"/>
+          <column width="-1" name="X_WG" hidden="0" type="field"/>
+          <column width="-1" name="Y_WG" hidden="0" type="field"/>
+          <column width="-1" name="s_gid" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"s_gid"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingTol="1" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyLocal="1" simplifyDrawingHints="1" readOnly="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" type="vector" simplifyAlgorithm="0" autoRefreshEnabled="0">
+      <extent>
+        <xmin>932750</xmin>
+        <ymin>1940000</ymin>
+        <xmax>941250</xmax>
+        <ymax>1951000</ymax>
+      </extent>
+      <id>Tot04_66ee653c_1296_489f_b60a_51119c08bce5</id>
+      <datasource>../01.Data/02.Use_Data/Tot_04.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>인구4월(격자)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28043</srsid>
+          <srid>5179</srid>
+          <authid>EPSG:5179</authid>
+          <description>Korea 2000 / Unified CS</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" minz="0" maxx="0" maxy="0" crs="" miny="0" dimensions="2" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="152,125,183,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory backgroundColor="#ffffff" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" backgroundAlpha="255" scaleBasedVisibility="0" scaleDependency="Area" maxScaleDenominator="1e+08" penAlpha="255" opacity="1" labelPlacementMethod="XHeight" rotationOffset="270" minScaleDenominator="0" penWidth="0" diagramOrientation="Up" height="15" sizeType="MM" barWidth="5" width="15" enabled="0" penColor="#000000" sizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" zIndex="0" dist="0" placement="1" priority="0" obstacle="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="gid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lbl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="val">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+        <alias index="1" name="" field="lbl"/>
+        <alias index="2" name="" field="val"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="gid" expression=""/>
+        <default applyOnUpdate="0" field="lbl" expression=""/>
+        <default applyOnUpdate="0" field="val" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="lbl"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="val"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="gid"/>
+        <constraint exp="" desc="" field="lbl"/>
+        <constraint exp="" desc="" field="val"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" name="gid" hidden="0" type="field"/>
+          <column width="-1" name="lbl" hidden="0" type="field"/>
+          <column width="-1" name="val" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS 양식은 양식이 열릴 때 호출된 파이썬 함수를 보유할 수 있습니다.
+
+이 함수를 사용해서 사용자 양식에 추가 로직을 추가하십시오.
+
+"파이썬 초기 함수" 란에 함수명을 입력하십시오.
+다음은 그 예시입니다:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="gid"/>
+        <field editable="1" name="lbl"/>
+        <field editable="1" name="val"/>
+      </editable>
+      <labelOnTop>
+        <field name="gid" labelOnTop="0"/>
+        <field name="lbl" labelOnTop="0"/>
+        <field name="val" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>gid</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingTol="1" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyLocal="1" simplifyDrawingHints="1" readOnly="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" type="vector" simplifyAlgorithm="0" autoRefreshEnabled="0">
+      <extent>
+        <xmin>932750</xmin>
+        <ymin>1940000</ymin>
+        <xmax>941250</xmax>
+        <ymax>1951000</ymax>
+      </extent>
+      <id>Tot10_3e06b7f9_9b57_45ea_aae9_e0419028a696</id>
+      <datasource>../01.Data/02.Use_Data/Tot_10.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>인구10월(격자)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28043</srsid>
+          <srid>5179</srid>
+          <authid>EPSG:5179</authid>
+          <description>Korea 2000 / Unified CS</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" minz="0" maxx="0" maxy="0" crs="" miny="0" dimensions="2" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,158,23,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>gid</value>
+          <value>"gid"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory backgroundColor="#ffffff" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" backgroundAlpha="255" scaleBasedVisibility="0" scaleDependency="Area" maxScaleDenominator="1e+08" penAlpha="255" opacity="1" labelPlacementMethod="XHeight" rotationOffset="270" minScaleDenominator="0" penWidth="0" diagramOrientation="Up" height="15" sizeType="MM" barWidth="5" width="15" enabled="0" penColor="#000000" sizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" zIndex="0" dist="0" placement="1" priority="0" obstacle="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="gid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lbl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="val">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+        <alias index="1" name="" field="lbl"/>
+        <alias index="2" name="" field="val"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="gid" expression=""/>
+        <default applyOnUpdate="0" field="lbl" expression=""/>
+        <default applyOnUpdate="0" field="val" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="lbl"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="val"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="gid"/>
+        <constraint exp="" desc="" field="lbl"/>
+        <constraint exp="" desc="" field="val"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" name="gid" hidden="0" type="field"/>
+          <column width="-1" name="lbl" hidden="0" type="field"/>
+          <column width="-1" name="val" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS 양식은 양식이 열릴 때 호출된 파이썬 함수를 보유할 수 있습니다.
+
+이 함수를 사용해서 사용자 양식에 추가 로직을 추가하십시오.
+
+"파이썬 초기 함수" 란에 함수명을 입력하십시오.
+다음은 그 예시입니다:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="gid"/>
+        <field editable="1" name="lbl"/>
+        <field editable="1" name="val"/>
+      </editable>
+      <labelOnTop>
+        <field name="gid" labelOnTop="0"/>
+        <field name="lbl" labelOnTop="0"/>
+        <field name="val" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>gid</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" labelsEnabled="0" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingTol="1" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="Polygon" simplifyLocal="1" simplifyDrawingHints="1" readOnly="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" type="vector" simplifyAlgorithm="0" autoRefreshEnabled="0">
+      <extent>
+        <xmin>932750</xmin>
+        <ymin>1940000</ymin>
+        <xmax>941250</xmax>
+        <ymax>1951000</ymax>
+      </extent>
+      <id>jyd_5f41d50f_a7de_429d_a564_f6b63d69b127</id>
+      <datasource>../01.Data/02.Use_Data/jyd.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>주용도코드</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28043</srsid>
+          <srid>5179</srid>
+          <authid>EPSG:5179</authid>
+          <description>Korea 2000 / Unified CS</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" minz="0" maxx="0" maxy="0" crs="" miny="0" dimensions="2" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol clip_to_extent="1" force_rhr="0" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="190,178,151,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"gid"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory backgroundColor="#ffffff" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" backgroundAlpha="255" scaleBasedVisibility="0" scaleDependency="Area" maxScaleDenominator="1e+08" penAlpha="255" opacity="1" labelPlacementMethod="XHeight" rotationOffset="270" minScaleDenominator="0" penWidth="0" diagramOrientation="Up" height="15" sizeType="MM" barWidth="5" width="15" enabled="0" penColor="#000000" sizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" zIndex="0" dist="0" placement="1" priority="0" obstacle="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="gid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lbl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="val">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+        <alias index="1" name="" field="lbl"/>
+        <alias index="2" name="" field="val"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="gid" expression=""/>
+        <default applyOnUpdate="0" field="lbl" expression=""/>
+        <default applyOnUpdate="0" field="val" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="lbl"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="val"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="gid"/>
+        <constraint exp="" desc="" field="lbl"/>
+        <constraint exp="" desc="" field="val"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column width="-1" name="gid" hidden="0" type="field"/>
+          <column width="-1" name="lbl" hidden="0" type="field"/>
+          <column width="-1" name="val" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS 양식은 양식이 열릴 때 호출된 파이썬 함수를 보유할 수 있습니다.
+
+이 함수를 사용해서 사용자 양식에 추가 로직을 추가하십시오.
+
+"파이썬 초기 함수" 란에 함수명을 입력하십시오.
+다음은 그 예시입니다:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="gid"/>
+        <field editable="1" name="lbl"/>
+        <field editable="1" name="val"/>
+      </editable>
+      <labelOnTop>
+        <field name="gid" labelOnTop="0"/>
+        <field name="lbl" labelOnTop="0"/>
+        <field name="val" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>gid</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="No geometry" readOnly="0" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0">
+      <id>kiosk_list_gid_264301ac_13c4_473e_85dd_4532b37483dc</id>
+      <datasource>file:../01.Data/03.Data_Preprocessing/01.Kiosk/Reference_Data/kiosk_list_gid.csv?encoding=System&amp;type=csv&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>발급기_리스트</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties/>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="nm_k_c">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_k_cf">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="k_char">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="addr_k">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="x_k_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y_k_uk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="k_gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="nm_k_c"/>
+        <alias index="1" name="" field="nm_k_cf"/>
+        <alias index="2" name="" field="k_char"/>
+        <alias index="3" name="" field="addr_k"/>
+        <alias index="4" name="" field="x_k_uk"/>
+        <alias index="5" name="" field="y_k_uk"/>
+        <alias index="6" name="" field="k_gid"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="nm_k_c" expression=""/>
+        <default applyOnUpdate="0" field="nm_k_cf" expression=""/>
+        <default applyOnUpdate="0" field="k_char" expression=""/>
+        <default applyOnUpdate="0" field="addr_k" expression=""/>
+        <default applyOnUpdate="0" field="x_k_uk" expression=""/>
+        <default applyOnUpdate="0" field="y_k_uk" expression=""/>
+        <default applyOnUpdate="0" field="k_gid" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_k_c"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_k_cf"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="k_char"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="addr_k"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="x_k_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="y_k_uk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="k_gid"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="nm_k_c"/>
+        <constraint exp="" desc="" field="nm_k_cf"/>
+        <constraint exp="" desc="" field="k_char"/>
+        <constraint exp="" desc="" field="addr_k"/>
+        <constraint exp="" desc="" field="x_k_uk"/>
+        <constraint exp="" desc="" field="y_k_uk"/>
+        <constraint exp="" desc="" field="k_gid"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer styleCategories="AllStyleCategories" maxScale="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" geometry="No geometry" readOnly="0" refreshOnNotifyEnabled="0" type="vector" autoRefreshEnabled="0">
+      <id>output_summary_736ef091_fdc1_434b_b403_e054946c2752</id>
+      <datasource>file:../03.Output/07.Modeling/output_summary.txt?encoding=EUC-KR&amp;type=csv&amp;delimiter=%5Ct%7C&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>서비스인구_및_예측결과</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="EUC-KR">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="기본값">
+        <map-layer-style name="기본값"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties/>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="gid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="YN_kiosk">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nm_k_cf">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cnt_mw3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pred">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="km_grade">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vm_class">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vm_prob">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="vm_grade">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="H">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="W">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="V">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Tot_10">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="p_grow">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="p_diff">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n_biz">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="n_biz_sum">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="gid"/>
+        <alias index="1" name="" field="YN_kiosk"/>
+        <alias index="2" name="" field="nm_k_cf"/>
+        <alias index="3" name="" field="cnt_mw3"/>
+        <alias index="4" name="" field="pred"/>
+        <alias index="5" name="" field="km_grade"/>
+        <alias index="6" name="" field="vm_class"/>
+        <alias index="7" name="" field="vm_prob"/>
+        <alias index="8" name="" field="vm_grade"/>
+        <alias index="9" name="" field="H"/>
+        <alias index="10" name="" field="W"/>
+        <alias index="11" name="" field="V"/>
+        <alias index="12" name="" field="Tot_10"/>
+        <alias index="13" name="" field="p_grow"/>
+        <alias index="14" name="" field="p_diff"/>
+        <alias index="15" name="" field="BS"/>
+        <alias index="16" name="" field="n_biz"/>
+        <alias index="17" name="" field="n_biz_sum"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="gid" expression=""/>
+        <default applyOnUpdate="0" field="YN_kiosk" expression=""/>
+        <default applyOnUpdate="0" field="nm_k_cf" expression=""/>
+        <default applyOnUpdate="0" field="cnt_mw3" expression=""/>
+        <default applyOnUpdate="0" field="pred" expression=""/>
+        <default applyOnUpdate="0" field="km_grade" expression=""/>
+        <default applyOnUpdate="0" field="vm_class" expression=""/>
+        <default applyOnUpdate="0" field="vm_prob" expression=""/>
+        <default applyOnUpdate="0" field="vm_grade" expression=""/>
+        <default applyOnUpdate="0" field="H" expression=""/>
+        <default applyOnUpdate="0" field="W" expression=""/>
+        <default applyOnUpdate="0" field="V" expression=""/>
+        <default applyOnUpdate="0" field="Tot_10" expression=""/>
+        <default applyOnUpdate="0" field="p_grow" expression=""/>
+        <default applyOnUpdate="0" field="p_diff" expression=""/>
+        <default applyOnUpdate="0" field="BS" expression=""/>
+        <default applyOnUpdate="0" field="n_biz" expression=""/>
+        <default applyOnUpdate="0" field="n_biz_sum" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="gid"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="YN_kiosk"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="nm_k_cf"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="cnt_mw3"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="pred"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="km_grade"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="vm_class"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="vm_prob"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="vm_grade"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="H"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="W"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="V"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="Tot_10"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="p_grow"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="p_diff"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="BS"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="n_biz"/>
+        <constraint notnull_strength="0" constraints="0" unique_strength="0" exp_strength="0" field="n_biz_sum"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="gid"/>
+        <constraint exp="" desc="" field="YN_kiosk"/>
+        <constraint exp="" desc="" field="nm_k_cf"/>
+        <constraint exp="" desc="" field="cnt_mw3"/>
+        <constraint exp="" desc="" field="pred"/>
+        <constraint exp="" desc="" field="km_grade"/>
+        <constraint exp="" desc="" field="vm_class"/>
+        <constraint exp="" desc="" field="vm_prob"/>
+        <constraint exp="" desc="" field="vm_grade"/>
+        <constraint exp="" desc="" field="H"/>
+        <constraint exp="" desc="" field="W"/>
+        <constraint exp="" desc="" field="V"/>
+        <constraint exp="" desc="" field="Tot_10"/>
+        <constraint exp="" desc="" field="p_grow"/>
+        <constraint exp="" desc="" field="p_diff"/>
+        <constraint exp="" desc="" field="BS"/>
+        <constraint exp="" desc="" field="n_biz"/>
+        <constraint exp="" desc="" field="n_biz_sum"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="Tot10_3e06b7f9_9b57_45ea_aae9_e0419028a696"/>
+    <layer id="jyd_5f41d50f_a7de_429d_a564_f6b63d69b127"/>
+    <layer id="Tot04_66ee653c_1296_489f_b60a_51119c08bce5"/>
+    <layer id="EMD_09d4e54c_a8f8_4ccd_9d66_87653ec5a4e6"/>
+    <layer id="GID_1c90a59e_e440_4356_84bb_8b76d1d8bf71"/>
+  </layerorder>
+  <properties>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PAL>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <SearchMethod type="int">0</SearchMethod>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <TextFormat type="int">0</TextFormat>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+    </PAL>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Gui>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+    </Gui>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <SemiAutomaticClassificationPlugin>
+      <bandSetsList type="QString">[['Yes', 0, 0, [], [], 'band number', [[], []], 'Band set 0', '']]</bandSetsList>
+      <bndSetNumber type="QString">0</bndSetNumber>
+      <SCP_DownloadTable type="QString"></SCP_DownloadTable>
+    </SemiAutomaticClassificationPlugin>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>xonoid</author>
+    <creation>2020-01-20T18:24:04</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>

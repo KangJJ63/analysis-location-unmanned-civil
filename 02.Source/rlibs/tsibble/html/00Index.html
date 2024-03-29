@@ -1,0 +1,539 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Tidy Temporal Data Frames and Tools</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Tidy Temporal Data Frames and Tools
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;tsibble&rsquo; version 0.8.5</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="# "> </a>
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#K">K</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#P">P</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#U">U</a>
+<a href="#Y">Y</a>
+</p>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="tsibble-package.html">tsibble-package</a></td>
+<td>tsibble: tidy temporal data frames and tools</td></tr>
+</table>
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="new-data.html">append_case</a></td>
+<td>New tsibble data and append new observations to a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="new-data.html">append_row</a></td>
+<td>New tsibble data and append new observations to a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="duplicates.html">are_duplicated</a></td>
+<td>Test duplicated observations determined by key and index variables</td></tr>
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">arrange.tbl_ts</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="as-tibble.html">as.data.frame.tbl_ts</a></td>
+<td>Coerce to a tibble or data frame</td></tr>
+<tr><td style="width: 25%;"><a href="as.ts.tbl_ts.html">as.ts.tbl_ts</a></td>
+<td>Coerce a tsibble to a time series</td></tr>
+<tr><td style="width: 25%;"><a href="as-tibble.html">as_tibble.tbl_ts</a></td>
+<td>Coerce to a tibble or data frame</td></tr>
+<tr><td style="width: 25%;"><a href="as-tsibble.html">as_tsibble</a></td>
+<td>Coerce to a tsibble object</td></tr>
+<tr><td style="width: 25%;"><a href="as-tsibble.html">as_tsibble.data.frame</a></td>
+<td>Coerce to a tsibble object</td></tr>
+<tr><td style="width: 25%;"><a href="as-tsibble.html">as_tsibble.hts</a></td>
+<td>Coerce to a tsibble object</td></tr>
+<tr><td style="width: 25%;"><a href="as-tsibble.html">as_tsibble.mts</a></td>
+<td>Coerce to a tsibble object</td></tr>
+<tr><td style="width: 25%;"><a href="as-tsibble.html">as_tsibble.ts</a></td>
+<td>Coerce to a tsibble object</td></tr>
+</table>
+
+<h2><a name="B">-- B --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="build_tsibble.html">build_tsibble</a></td>
+<td>Low-level constructor for a tsibble object</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="count_gaps.html">count_gaps</a></td>
+<td>Count implicit gaps</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="difference.html">difference</a></td>
+<td>Lagged differences</td></tr>
+<tr><td style="width: 25%;"><a href="duplicates.html">duplicates</a></td>
+<td>Test duplicated observations determined by key and index variables</td></tr>
+</table>
+
+<h2><a name="F">-- F --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="fill_gaps.html">fill_gaps</a></td>
+<td>Turn implicit missing values into explicit missing values</td></tr>
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">filter.tbl_ts</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="filter_index.html">filter_index</a></td>
+<td>A shorthand for filtering time index for a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_pslide</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_pslide_chr</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_pslide_dbl</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_pslide_dfc</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_pslide_dfr</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_pslide_int</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_pslide_lgl</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_pstretch</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_pstretch_chr</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_pstretch_dbl</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_pstretch_dfc</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_pstretch_dfr</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_pstretch_int</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_pstretch_lgl</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_ptile</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_ptile_chr</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_ptile_dbl</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_ptile_dfc</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_ptile_dfr</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_ptile_int</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_ptile_lgl</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide()</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide2</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide2_chr</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide2_dbl</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide2_dfc</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide2_dfr</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide2_int</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide2_lgl</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide_chr</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide_dbl</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide_dfc</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide_dfr</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide_int</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-slide.html">future_slide_lgl</a></td>
+<td>Sliding window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch()</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch2</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch2_chr</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch2_dbl</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch2_dfc</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch2_dfr</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch2_int</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch2_lgl</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch_chr</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch_dbl</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch_dfc</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch_dfr</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch_int</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-stretch.html">future_stretch_lgl</a></td>
+<td>Stretching window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile()</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile2</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile2_chr</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile2_dbl</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile2_dfc</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile2_dfr</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile2_int</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile2_lgl</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile_chr</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile_dbl</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile_dfc</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile_dfr</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile_int</a></td>
+<td>Tiling window in parallel</td></tr>
+<tr><td style="width: 25%;"><a href="future-tile.html">future_tile_lgl</a></td>
+<td>Tiling window in parallel</td></tr>
+</table>
+
+<h2><a name="G">-- G --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">gather.tbl_ts</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="group_by_key.html">group_by_key</a></td>
+<td>Group by key variables</td></tr>
+<tr><td style="width: 25%;"><a href="guess_frequency.html">guess_frequency</a></td>
+<td>Guess a time frequency from other index objects</td></tr>
+</table>
+
+<h2><a name="H">-- H --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="has_gaps.html">has_gaps</a></td>
+<td>Does a tsibble have implicit gaps in time?</td></tr>
+<tr><td style="width: 25%;"><a href="holiday_aus.html">holiday_aus</a></td>
+<td>Australian national and state-based public holiday</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="index-rd.html">index</a></td>
+<td>Return index variable from a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="index-rd.html">index2</a></td>
+<td>Return index variable from a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="index-rd.html">index2_var</a></td>
+<td>Return index variable from a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="index-by.html">index_by</a></td>
+<td>Group by time index and collapse with 'summarise()'</td></tr>
+<tr><td style="width: 25%;"><a href="index_valid.html">index_valid</a></td>
+<td>Add custom index support for a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="index-rd.html">index_var</a></td>
+<td>Return index variable from a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="regular.html">interval</a></td>
+<td>Meta-information of a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="interval-pull.html">interval_pull</a></td>
+<td>Pull time interval from a vector</td></tr>
+<tr><td style="width: 25%;"><a href="period.html">is_53weeks</a></td>
+<td>Represent year-week (ISO) starting on Monday, year-month or year-quarter objects</td></tr>
+<tr><td style="width: 25%;"><a href="duplicates.html">is_duplicated</a></td>
+<td>Test duplicated observations determined by key and index variables</td></tr>
+<tr><td style="width: 25%;"><a href="is-tsibble.html">is_grouped_ts</a></td>
+<td>If the object is a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="regular.html">is_ordered</a></td>
+<td>Meta-information of a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="regular.html">is_regular</a></td>
+<td>Meta-information of a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="is-tsibble.html">is_tsibble</a></td>
+<td>If the object is a tsibble</td></tr>
+</table>
+
+<h2><a name="K">-- K --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="key.html">key</a></td>
+<td>Return key variables</td></tr>
+<tr><td style="width: 25%;"><a href="key.html">key_vars</a></td>
+<td>Return key variables</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="measured-vars.html">measured_vars</a></td>
+<td>Return measured variables</td></tr>
+<tr><td style="width: 25%;"><a href="measured-vars.html">measures</a></td>
+<td>Return measured variables</td></tr>
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">mutate.tbl_ts</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+</table>
+
+<h2><a name="N">-- N --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="new-data.html">new_data</a></td>
+<td>New tsibble data and append new observations to a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="new-data.html">new_data.tbl_ts</a></td>
+<td>New tsibble data and append new observations to a tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="new_interval.html">new_interval</a></td>
+<td>Create a time interval</td></tr>
+<tr><td style="width: 25%;"><a href="new_tsibble.html">new_tsibble</a></td>
+<td>Create a subclass of a tsibble</td></tr>
+</table>
+
+<h2><a name="P">-- P --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="partial-slider.html">partial_pslider</a></td>
+<td>Partially splits the input to a list according to the rolling window size.</td></tr>
+<tr><td style="width: 25%;"><a href="partial-slider.html">partial_slider</a></td>
+<td>Partially splits the input to a list according to the rolling window size.</td></tr>
+<tr><td style="width: 25%;"><a href="pedestrian.html">pedestrian</a></td>
+<td>Pedestrian counts in the city of Melbourne</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">pslide</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slider.html">pslider</a></td>
+<td>Splits the input to a list according to the rolling window size.</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">pslide_chr</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">pslide_dbl</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">pslide_dfc</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">pslide_dfr</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">pslide_int</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">pslide_lgl</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">pstretch</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretcher.html">pstretcher</a></td>
+<td>Split the input to a list according to the stretching window size.</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">pstretch_chr</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">pstretch_dbl</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">pstretch_dfc</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">pstretch_dfr</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">pstretch_int</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">pstretch_lgl</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">ptile</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tiler.html">ptiler</a></td>
+<td>Splits the input to a list according to the tiling window size.</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">ptile_chr</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">ptile_dbl</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">ptile_dfc</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">ptile_dfr</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">ptile_int</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">ptile_lgl</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">rename.tbl_ts</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="scan_gaps.html">scan_gaps</a></td>
+<td>Scan a tsibble for implicit missing observations</td></tr>
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">select.tbl_ts</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">slice.tbl_ts</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="slide.html">slide</a></td>
+<td>Sliding window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">slide2</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">slide2_chr</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">slide2_dbl</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">slide2_dfc</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">slide2_dfr</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">slide2_int</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slide2.html">slide2_lgl</a></td>
+<td>Sliding window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="slider.html">slider</a></td>
+<td>Splits the input to a list according to the rolling window size.</td></tr>
+<tr><td style="width: 25%;"><a href="slide.html">slide_chr</a></td>
+<td>Sliding window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="slide.html">slide_dbl</a></td>
+<td>Sliding window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="slide.html">slide_dfc</a></td>
+<td>Sliding window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="slide.html">slide_dfr</a></td>
+<td>Sliding window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="slide.html">slide_int</a></td>
+<td>Sliding window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="slide.html">slide_lgl</a></td>
+<td>Sliding window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="slide_tsibble.html">slide_tsibble</a></td>
+<td>Perform sliding windows on a tsibble by row</td></tr>
+<tr><td style="width: 25%;"><a href="stretch.html">stretch</a></td>
+<td>Stretching window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">stretch2</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">stretch2_chr</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">stretch2_dbl</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">stretch2_dfc</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">stretch2_dfr</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">stretch2_int</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretch2.html">stretch2_lgl</a></td>
+<td>Stretching window calculation over multiple simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="stretcher.html">stretcher</a></td>
+<td>Split the input to a list according to the stretching window size.</td></tr>
+<tr><td style="width: 25%;"><a href="stretch.html">stretch_chr</a></td>
+<td>Stretching window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="stretch.html">stretch_dbl</a></td>
+<td>Stretching window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="stretch.html">stretch_dfc</a></td>
+<td>Stretching window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="stretch.html">stretch_dfr</a></td>
+<td>Stretching window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="stretch.html">stretch_int</a></td>
+<td>Stretching window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="stretch.html">stretch_lgl</a></td>
+<td>Stretching window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="stretch_tsibble.html">stretch_tsibble</a></td>
+<td>Perform stretching windows on a tsibble by row</td></tr>
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">summarise.tbl_ts</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+</table>
+
+<h2><a name="T">-- T --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="tile.html">tile</a></td>
+<td>Tiling window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">tile2</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">tile2_chr</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">tile2_dbl</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">tile2_dfc</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">tile2_dfr</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">tile2_int</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tile2.html">tile2_lgl</a></td>
+<td>Tiling window calculation over multiple inputs simultaneously</td></tr>
+<tr><td style="width: 25%;"><a href="tiler.html">tiler</a></td>
+<td>Splits the input to a list according to the tiling window size.</td></tr>
+<tr><td style="width: 25%;"><a href="tile.html">tile_chr</a></td>
+<td>Tiling window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="tile.html">tile_dbl</a></td>
+<td>Tiling window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="tile.html">tile_dfc</a></td>
+<td>Tiling window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="tile.html">tile_dfr</a></td>
+<td>Tiling window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="tile.html">tile_int</a></td>
+<td>Tiling window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="tile.html">tile_lgl</a></td>
+<td>Tiling window calculation</td></tr>
+<tr><td style="width: 25%;"><a href="tile_tsibble.html">tile_tsibble</a></td>
+<td>Perform tiling windows on a tsibble by row</td></tr>
+<tr><td style="width: 25%;"><a href="time_in.html">time_in</a></td>
+<td>If time falls in the ranges using compact expressions</td></tr>
+<tr><td style="width: 25%;"><a href="tourism.html">tourism</a></td>
+<td>Australian domestic overnight trips</td></tr>
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">transmute.tbl_ts</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+<tr><td style="width: 25%;"><a href="tsibble.html">tsibble</a></td>
+<td>Create a tsibble object</td></tr>
+<tr><td style="width: 25%;"><a href="tsibble-tidyverse.html">tsibble-tidyverse</a></td>
+<td>Tidyverse methods for tsibble</td></tr>
+</table>
+
+<h2><a name="U">-- U --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="units_since.html">units_since</a></td>
+<td>Time units since Unix Epoch</td></tr>
+<tr><td style="width: 25%;"><a href="update_tsibble.html">update_tsibble</a></td>
+<td>Update key and index for a tsibble</td></tr>
+</table>
+
+<h2><a name="Y">-- Y --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="period.html">yearmonth</a></td>
+<td>Represent year-week (ISO) starting on Monday, year-month or year-quarter objects</td></tr>
+<tr><td style="width: 25%;"><a href="period.html">yearquarter</a></td>
+<td>Represent year-week (ISO) starting on Monday, year-month or year-quarter objects</td></tr>
+<tr><td style="width: 25%;"><a href="period.html">yearweek</a></td>
+<td>Represent year-week (ISO) starting on Monday, year-month or year-quarter objects</td></tr>
+</table>
+</body></html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Import a graph from various graph formats</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for import_graph {DiagrammeR}"><tr><td>import_graph {DiagrammeR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Import a graph from various graph formats</h2>
+
+<h3>Description</h3>
+
+<p>Import a variety of graphs from different graph formats and create a graph
+object.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+import_graph(
+  graph_file,
+  file_type = NULL,
+  edges_extra_attr_names = NULL,
+  edges_extra_attr_coltypes = NULL,
+  graph_name = NULL,
+  attr_theme = "default",
+  write_backups = FALSE,
+  display_msgs = FALSE
+)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>graph_file</code></td>
+<td>
+<p>A connection to a graph file. When provided as a path to a
+file, it will read the file from disk. Files starting with <code style="white-space: pre;">http://</code>,
+<code style="white-space: pre;">https://</code>, <code style="white-space: pre;">ftp://</code>, or <code style="white-space: pre;">ftps://</code> will be automatically downloaded.</p>
+</td></tr>
+<tr valign="top"><td><code>file_type</code></td>
+<td>
+<p>The type of file to be imported. Options are: <code>gml</code> (GML),
+<code>sif</code> (SIF), <code>edges</code> (a .edges file), and <code>mtx</code> (MatrixMarket format). If
+not supplied, the type of graph file will be inferred by its file
+extension.</p>
+</td></tr>
+<tr valign="top"><td><code>edges_extra_attr_names</code></td>
+<td>
+<p>For <code>edges</code> files, a vector of attribute names
+beyond the <code>from</code> and <code>to</code> data columns can be provided in the order they
+appear in the input data file.</p>
+</td></tr>
+<tr valign="top"><td><code>edges_extra_attr_coltypes</code></td>
+<td>
+<p>For <code>edges</code> files, this is a string of
+column types for any attribute columns provided for
+<code>edges_extra_attr_names</code>. This string representation is where each
+character represents each of the extra columns of data and the mappings
+are: <code>c</code> -&gt; character, <code>i</code> -&gt; integer, <code>n</code> -&gt; number, <code>d</code> -&gt; double, <code>l</code> -&gt;
+logical, <code>D</code> -&gt; date, <code>T</code> -&gt; date time, <code>t</code> -&gt; time, <code style="white-space: pre;">?</code> -&gt; guess, or
+<code style="white-space: pre;">_/-</code>, which skips the column.</p>
+</td></tr>
+<tr valign="top"><td><code>graph_name</code></td>
+<td>
+<p>An optional string for labeling the graph object.</p>
+</td></tr>
+<tr valign="top"><td><code>attr_theme</code></td>
+<td>
+<p>The theme (i.e., collection of <code>graph</code>, <code>node</code>, and <code>edge</code>
+global graph attributes) to use for this graph. The default theme is called
+<code>default</code>; there are hierarchical layout themes called <code>lr</code>, <code>tb</code>, <code>rl</code>,
+and <code>bt</code> (these operate from left-to-right, top-to-bottom, right-to-left,
+and bottom-to-top); and, for larger graphs, the <code>fdp</code> theme provides a
+force directed layout. If this is set to <code>NULL</code> then no global graph
+attributes will be applied to the graph upon creation.</p>
+</td></tr>
+<tr valign="top"><td><code>write_backups</code></td>
+<td>
+<p>An option to write incremental backups of changing graph
+states to disk. If <code>TRUE</code>, a subdirectory within the working directory will
+be created and used to store <code>RDS</code> files. The default value is <code>FALSE</code> so
+one has to opt in to use this functionality.</p>
+</td></tr>
+<tr valign="top"><td><code>display_msgs</code></td>
+<td>
+<p>An option to display messages primarily concerned with
+changes in graph selections. By default, this is <code>FALSE</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>A graph object of class <code>dgr_graph</code>.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Not run: 
+# Import a GML graph file
+gml_graph &lt;-
+  import_graph(
+    system.file(
+      "extdata/karate.gml",
+      package = "DiagrammeR"))
+
+# Get a count of the graph's nodes
+gml_graph %&gt;%
+  count_nodes()
+
+# Get a count of the graph's edges
+gml_graph %&gt;%
+  count_edges()
+
+## End(Not run)
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>DiagrammeR</em> version 1.0.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

@@ -1,0 +1,12 @@
+autoplot.partial        Plotting Partial Dependence Functions
+boston                  Boston Housing Data
+partial                 Partial Dependence Functions
+pdp                     pdp: A general framework for constructing
+                        partial dependence (i.e., marginal effect)
+                        plots from various types machine learning
+                        models in R.
+pima                    Pima Indians Diabetes Data
+plotPartial             Plotting Partial Dependence Functions
+progress_progress       Progress bar
+topPredictors           Extract Most "Important" Predictors
+                        (Experimental)

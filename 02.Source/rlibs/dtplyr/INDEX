@@ -1,0 +1,6 @@
+collect.dtplyr_step     Force computation of a lazy data.table
+dtplyr-package          dtplyr: Data Table Back-End for 'dplyr'
+group_modify.dtplyr_step
+                        Modify a lazy_dt in place
+lazy_dt                 Create a "lazy" data.table for use with dplyr
+                        verbs

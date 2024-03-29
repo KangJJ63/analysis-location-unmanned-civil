@@ -1,0 +1,1435 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:buffer_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:buffer" name="alg_id"/>
+      <Option type="QString" value="대분류 버퍼 380m" name="component_description"/>
+      <Option type="double" value="1051.9999999999993" name="component_pos_x"/>
+      <Option type="double" value="476" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:centroids_1"/>
+      </Option>
+      <Option type="QString" value="native:buffer_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="380" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:centroids_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:buffer_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:buffer" name="alg_id"/>
+      <Option type="QString" value="중분류 버퍼 380m" name="component_description"/>
+      <Option type="double" value="1051.199999999999" name="component_pos_x"/>
+      <Option type="double" value="629.6" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:centroids_2"/>
+      </Option>
+      <Option type="QString" value="native:buffer_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="380" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:centroids_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:buffer_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:buffer" name="alg_id"/>
+      <Option type="QString" value="소분류 버퍼 380m" name="component_description"/>
+      <Option type="double" value="1058.3999999999996" name="component_pos_x"/>
+      <Option type="double" value="759.1999999999999" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:centroids_3"/>
+      </Option>
+      <Option type="QString" value="native:buffer_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="380" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:centroids_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="double" value="2" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:centroids_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:centroids" name="alg_id"/>
+      <Option type="QString" value="대분류 중심점" name="component_description"/>
+      <Option type="double" value="850.3999999999999" name="component_pos_x"/>
+      <Option type="double" value="476.79999999999995" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:joinattributestable_3"/>
+      </Option>
+      <Option type="QString" value="native:centroids_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ALL_PARTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:joinattributestable_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:centroids_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:centroids" name="alg_id"/>
+      <Option type="QString" value="중분류 중심점" name="component_description"/>
+      <Option type="double" value="847.1999999999996" name="component_pos_x"/>
+      <Option type="double" value="631.1999999999999" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:joinattributestable_4"/>
+      </Option>
+      <Option type="QString" value="native:centroids_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ALL_PARTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:joinattributestable_4" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:centroids_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:centroids" name="alg_id"/>
+      <Option type="QString" value="소분류 중심점" name="component_description"/>
+      <Option type="double" value="855.1999999999998" name="component_pos_x"/>
+      <Option type="double" value="757.6" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:joinattributestable_5"/>
+      </Option>
+      <Option type="QString" value="native:centroids_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ALL_PARTS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:joinattributestable_5" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:joinattributestable_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:joinattributestable" name="alg_id"/>
+      <Option type="QString" value="Kiosk_Dist_필드 값으로 속성 결합" name="component_description"/>
+      <Option type="double" value="536" name="component_pos_x"/>
+      <Option type="double" value="112.80000000000007" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="qgis:executesql_1"/>
+      </Option>
+      <Option type="QString" value="native:joinattributestable_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="kiosk_apply_list_gid_dist">
+          <Option type="QString" value="native:joinattributestable_1" name="child_id"/>
+          <Option type="QString" value="kiosk_apply_list_gid_dist" name="component_description"/>
+          <Option type="double" value="740" name="component_pos_x"/>
+          <Option type="double" value="113.80000000000004" name="component_pos_y"/>
+          <Option type="Map" name="default_value">
+            <Option type="QString" value="QgsProcessingOutputLayerDefinition" name="class"/>
+            <Option type="Map" name="create_options">
+              <Option type="QString" value="System" name="fileEncoding"/>
+            </Option>
+            <Option type="Map" name="sink">
+              <Option type="bool" value="true" name="active"/>
+              <Option type="int" value="1" name="type"/>
+              <Option type="QString" value="C:/19project/07.UCK/01.Data/03.Data_Preprocessing/01.Kiosk/Reference_Data/kiosk_apply_list_gid_dist.csv" name="val"/>
+            </Option>
+          </Option>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="kiosk_apply_list_gid_dist" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="uni_id" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELDS_TO_COPY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="dist_g;" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_2">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="uni_id" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="C:/19project/07.UCK/01.Data/03.Data_Preprocessing/01.Kiosk/Reference_Data/kiosk_apply_list_gid.csv" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_2">
+          <Option type="Map">
+            <Option type="QString" value="qgis:executesql_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREFIX">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:joinattributestable_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:joinattributestable" name="alg_id"/>
+      <Option type="QString" value="DB_Dist_필드 값으로 속성 결합" name="component_description"/>
+      <Option type="double" value="535.1999999999996" name="component_pos_x"/>
+      <Option type="double" value="264.80000000000007" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="qgis:executesql_2"/>
+      </Option>
+      <Option type="QString" value="native:joinattributestable_2" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="db_pub_counter_apply_list_gid_dist">
+          <Option type="QString" value="native:joinattributestable_2" name="child_id"/>
+          <Option type="QString" value="db_pub_counter_apply_list_gid_dist" name="component_description"/>
+          <Option type="double" value="739.1999999999996" name="component_pos_x"/>
+          <Option type="double" value="263.40000000000003" name="component_pos_y"/>
+          <Option type="Map" name="default_value">
+            <Option type="QString" value="QgsProcessingOutputLayerDefinition" name="class"/>
+            <Option type="Map" name="create_options">
+              <Option type="QString" value="System" name="fileEncoding"/>
+            </Option>
+            <Option type="Map" name="sink">
+              <Option type="bool" value="true" name="active"/>
+              <Option type="int" value="1" name="type"/>
+              <Option type="QString" value="C:/19project/07.UCK/01.Data/03.Data_Preprocessing/02.DB_Pub_Counter/Reference_Data/db_pub_counter_apply_list_gid_dist.csv" name="val"/>
+            </Option>
+          </Option>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="db_pub_counter_apply_list_gid_dist" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="uni_id" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELDS_TO_COPY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="dist_g;" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_2">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="uni_id" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="C:/19project/07.UCK/01.Data/03.Data_Preprocessing/02.DB_Pub_Counter/Reference_Data/db_pub_counter_apply_list_gid.csv" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_2">
+          <Option type="Map">
+            <Option type="QString" value="qgis:executesql_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREFIX">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:joinattributestable_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:joinattributestable" name="alg_id"/>
+      <Option type="QString" value="대분류 필드값 결합" name="component_description"/>
+      <Option type="double" value="647.2" name="component_pos_x"/>
+      <Option type="double" value="477.60000000000014" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:joinattributestable_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELDS_TO_COPY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_2">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="s_gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="gid" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_2">
+          <Option type="Map">
+            <Option type="QString" value="ssgil" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREFIX">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:joinattributestable_4">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:joinattributestable" name="alg_id"/>
+      <Option type="QString" value="중분류 필드값 결합" name="component_description"/>
+      <Option type="double" value="643.1999999999994" name="component_pos_x"/>
+      <Option type="double" value="631.2" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:joinattributestable_4" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELDS_TO_COPY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_2">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="s_gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="gid" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_2">
+          <Option type="Map">
+            <Option type="QString" value="ssgim" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREFIX">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:joinattributestable_5">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:joinattributestable" name="alg_id"/>
+      <Option type="QString" value="소분류 필드값 결합" name="component_description"/>
+      <Option type="double" value="650.3999999999996" name="component_pos_x"/>
+      <Option type="double" value="757.6" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="native:joinattributestable_5" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELDS_TO_COPY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_2">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="s_gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="gid" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_2">
+          <Option type="Map">
+            <Option type="QString" value="ssgis" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="1" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREFIX">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:deletecolumn_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:deletecolumn" name="alg_id"/>
+      <Option type="QString" value="대분류 s_gid 필드 삭제" name="component_description"/>
+      <Option type="double" value="1456.7999999999997" name="component_pos_x"/>
+      <Option type="double" value="476.79999999999995" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="qgis:joinbylocationsummary_1"/>
+      </Option>
+      <Option type="QString" value="qgis:deletecolumn_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="SSGI_L_Buff_380M">
+          <Option type="QString" value="qgis:deletecolumn_1" name="child_id"/>
+          <Option type="QString" value="SSGI_L_Buff_380M" name="component_description"/>
+          <Option type="double" value="1659.9999999999995" name="component_pos_x"/>
+          <Option type="double" value="477" name="component_pos_y"/>
+          <Option type="Map" name="default_value">
+            <Option type="QString" value="QgsProcessingOutputLayerDefinition" name="class"/>
+            <Option type="Map" name="create_options">
+              <Option type="QString" value="System" name="fileEncoding"/>
+            </Option>
+            <Option type="Map" name="sink">
+              <Option type="bool" value="true" name="active"/>
+              <Option type="int" value="1" name="type"/>
+              <Option type="QString" value="C:/19project/07.UCK/01.Data/03.Data_Preprocessing/04.SSGI/SSGI_Select_Area_LMS_Buff_380M/SSGI_L_Buff_380M.csv" name="val"/>
+            </Option>
+          </Option>
+          <Option type="bool" value="true" name="mandatory"/>
+          <Option type="QString" value="SSGI_L_Buff_380M" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="COLUMN">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="s_gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:joinbylocationsummary_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:deletecolumn_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:deletecolumn" name="alg_id"/>
+      <Option type="QString" value="중분류 s_gid 필드 삭제" name="component_description"/>
+      <Option type="double" value="1456.7999999999997" name="component_pos_x"/>
+      <Option type="double" value="628" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="qgis:joinbylocationsummary_2"/>
+      </Option>
+      <Option type="QString" value="qgis:deletecolumn_2" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="SSGI_M_Buff_380M">
+          <Option type="QString" value="qgis:deletecolumn_2" name="child_id"/>
+          <Option type="QString" value="SSGI_M_Buff_380M" name="component_description"/>
+          <Option type="double" value="1659.1999999999998" name="component_pos_x"/>
+          <Option type="double" value="628.1999999999998" name="component_pos_y"/>
+          <Option type="Map" name="default_value">
+            <Option type="QString" value="QgsProcessingOutputLayerDefinition" name="class"/>
+            <Option type="Map" name="create_options">
+              <Option type="QString" value="System" name="fileEncoding"/>
+            </Option>
+            <Option type="Map" name="sink">
+              <Option type="bool" value="true" name="active"/>
+              <Option type="int" value="1" name="type"/>
+              <Option type="QString" value="C:/19project/07.UCK/01.Data/03.Data_Preprocessing/04.SSGI/SSGI_Select_Area_LMS_Buff_380M/SSGI_M_Buff_380M.csv" name="val"/>
+            </Option>
+          </Option>
+          <Option type="bool" value="true" name="mandatory"/>
+          <Option type="QString" value="SSGI_M_Buff_380M" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="COLUMN">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="s_gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:joinbylocationsummary_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:deletecolumn_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:deletecolumn" name="alg_id"/>
+      <Option type="QString" value="소분류 s_gid 필드 삭제" name="component_description"/>
+      <Option type="double" value="1465.6" name="component_pos_x"/>
+      <Option type="double" value="759.1999999999999" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="qgis:joinbylocationsummary_3"/>
+      </Option>
+      <Option type="QString" value="qgis:deletecolumn_3" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="SSGI_S_Buff_380M">
+          <Option type="QString" value="qgis:deletecolumn_3" name="child_id"/>
+          <Option type="QString" value="SSGI_S_Buff_380M" name="component_description"/>
+          <Option type="double" value="1668.7999999999997" name="component_pos_x"/>
+          <Option type="double" value="759.3999999999999" name="component_pos_y"/>
+          <Option type="Map" name="default_value">
+            <Option type="QString" value="QgsProcessingOutputLayerDefinition" name="class"/>
+            <Option type="Map" name="create_options">
+              <Option type="QString" value="System" name="fileEncoding"/>
+            </Option>
+            <Option type="Map" name="sink">
+              <Option type="bool" value="true" name="active"/>
+              <Option type="int" value="1" name="type"/>
+              <Option type="QString" value="C:/19project/07.UCK/01.Data/03.Data_Preprocessing/04.SSGI/SSGI_Select_Area_LMS_Buff_380M/SSGI_S_Buff_380M.csv" name="val"/>
+            </Option>
+          </Option>
+          <Option type="bool" value="true" name="mandatory"/>
+          <Option type="QString" value="SSGI_S_Buff_380M" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="COLUMN">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="s_gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:joinbylocationsummary_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:executesql_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:executesql" name="alg_id"/>
+      <Option type="QString" value="Kiosk_Dist_SQL 실행" name="component_description"/>
+      <Option type="double" value="333.5999999999999" name="component_pos_x"/>
+      <Option type="double" value="112.80000000000007" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="qgis:executesql_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT_DATASOURCES">
+          <Option type="Map">
+            <Option type="QString" value="gid" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+          <Option type="Map">
+            <Option type="QString" value="pointdata" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_GEOMETRY_CRS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QgsCoordinateReferenceSystem" name="static_value">
+              <spatialrefsys>
+                <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                <srsid>28043</srsid>
+                <srid>5179</srid>
+                <authid>EPSG:5179</authid>
+                <description>Korea 2000 / Unified CS</description>
+                <projectionacronym>tmerc</projectionacronym>
+                <ellipsoidacronym>GRS80</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+              </spatialrefsys>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_GEOMETRY_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_GEOMETRY_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_QUERY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="SELECT kiosk_point.*, st_distance(kiosk_point.geometry, st_centroid(gid.geometry)) dist_g&#xa;from kiosk_apply_list_gid kiosk_point&#xa;left outer join GID gid&#xa;on kiosk_point.a_gid = gid.gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_UID_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:executesql_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:executesql" name="alg_id"/>
+      <Option type="QString" value="DB_Dist_SQL 실행" name="component_description"/>
+      <Option type="double" value="332.7999999999995" name="component_pos_x"/>
+      <Option type="double" value="264.0000000000001" name="component_pos_y"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="qgis:executesql_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT_DATASOURCES">
+          <Option type="Map">
+            <Option type="QString" value="dbpubcounterpointdata" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+          <Option type="Map">
+            <Option type="QString" value="gid" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_GEOMETRY_CRS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QgsCoordinateReferenceSystem" name="static_value">
+              <spatialrefsys>
+                <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                <srsid>28043</srsid>
+                <srid>5179</srid>
+                <authid>EPSG:5179</authid>
+                <description>Korea 2000 / Unified CS</description>
+                <projectionacronym>tmerc</projectionacronym>
+                <ellipsoidacronym>GRS80</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+              </spatialrefsys>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_GEOMETRY_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_GEOMETRY_TYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_QUERY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="SELECT dept_point.*, st_distance(dept_point.geometry, st_centroid(gid.geometry)) dist_g&#xa;from db_pub_counter_apply_list_gid dept_point&#xa;left outer join GID gid&#xa;on dept_point.a_gid = gid.gid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_UID_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:joinbylocationsummary_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:joinbylocationsummary" name="alg_id"/>
+      <Option type="QString" value="대분류 380m 반경 합계" name="component_description"/>
+      <Option type="double" value="1255.1999999999998" name="component_pos_x"/>
+      <Option type="double" value="476.7999999999999" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:buffer_1"/>
+        <Option type="QString" value="native:centroids_1"/>
+      </Option>
+      <Option type="QString" value="qgis:joinbylocationsummary_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:buffer_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN">
+          <Option type="Map">
+            <Option type="QString" value="native:centroids_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_FIELDS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREDICATE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SUMMARIES">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:joinbylocationsummary_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:joinbylocationsummary" name="alg_id"/>
+      <Option type="QString" value="중분류 380m 반경 합계" name="component_description"/>
+      <Option type="double" value="1253.6" name="component_pos_x"/>
+      <Option type="double" value="630.3999999999999" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:buffer_2"/>
+        <Option type="QString" value="native:centroids_2"/>
+      </Option>
+      <Option type="QString" value="qgis:joinbylocationsummary_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:buffer_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN">
+          <Option type="Map">
+            <Option type="QString" value="native:centroids_2" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_FIELDS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREDICATE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SUMMARIES">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:joinbylocationsummary_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:joinbylocationsummary" name="alg_id"/>
+      <Option type="QString" value="소분류 380m 반경 합계" name="component_description"/>
+      <Option type="double" value="1260.7999999999995" name="component_pos_x"/>
+      <Option type="double" value="757.6" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:buffer_3"/>
+        <Option type="QString" value="native:centroids_3"/>
+      </Option>
+      <Option type="QString" value="qgis:joinbylocationsummary_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:buffer_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN">
+          <Option type="Map">
+            <Option type="QString" value="native:centroids_3" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_FIELDS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREDICATE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SUMMARIES">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="5" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="r:data_merge_time_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:data_merge_time" name="alg_id"/>
+      <Option type="QString" value="data merge time" name="component_description"/>
+      <Option type="double" value="2364.977777777778" name="component_pos_x"/>
+      <Option type="double" value="671.4666666666668" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="r:ssgi_data_preprocessing_1"/>
+      </Option>
+      <Option type="QString" value="r:data_merge_time_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:data_merge_validity_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:data_merge_validity" name="alg_id"/>
+      <Option type="QString" value="data merge validity" name="component_description"/>
+      <Option type="double" value="2566.4888888888886" name="component_pos_x"/>
+      <Option type="double" value="671.4666666666666" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="r:data_merge_time_1"/>
+      </Option>
+      <Option type="QString" value="r:data_merge_validity_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:db_EDA_all_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:db_EDA_all" name="alg_id"/>
+      <Option type="QString" value="db EDA all" name="component_description"/>
+      <Option type="double" value="941.7777777777778" name="component_pos_x"/>
+      <Option type="double" value="331.55555555555554" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="r:db_preprocessing_1"/>
+      </Option>
+      <Option type="QString" value="r:db_EDA_all_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:db_EDA_select_po_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:db_EDA_select_po" name="alg_id"/>
+      <Option type="QString" value="db EDA select po" name="component_description"/>
+      <Option type="double" value="1142.311111111111" name="component_pos_x"/>
+      <Option type="double" value="331.55555555555554" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="r:db_EDA_all_1"/>
+      </Option>
+      <Option type="QString" value="r:db_EDA_select_po_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:db_preprocessing_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:db_preprocessing" name="alg_id"/>
+      <Option type="QString" value="db preprocessing" name="component_description"/>
+      <Option type="double" value="738.3999999999996" name="component_pos_x"/>
+      <Option type="double" value="332.97777777777776" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:joinattributestable_2"/>
+      </Option>
+      <Option type="QString" value="r:db_preprocessing_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:eda_server_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:eda_server" name="alg_id"/>
+      <Option type="QString" value="eda server" name="component_description"/>
+      <Option type="double" value="2969.6000000000004" name="component_pos_x"/>
+      <Option type="double" value="674.4" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="r:kiosk_modeling_1"/>
+      </Option>
+      <Option type="QString" value="r:eda_server_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:kiosk_EDA_all_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:kiosk_EDA_all" name="alg_id"/>
+      <Option type="QString" value="kiosk EDA all" name="component_description"/>
+      <Option type="double" value="940.3555555555554" name="component_pos_x"/>
+      <Option type="double" value="173.68888888888875" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="r:kiosk_preprocessing_1"/>
+      </Option>
+      <Option type="QString" value="r:kiosk_EDA_all_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:kiosk_modeling_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:kiosk_modeling" name="alg_id"/>
+      <Option type="QString" value="kiosk modeling" name="component_description"/>
+      <Option type="double" value="2768" name="component_pos_x"/>
+      <Option type="double" value="672.8888888888888" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="r:data_merge_validity_1"/>
+      </Option>
+      <Option type="QString" value="r:kiosk_modeling_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:kiosk_preprocessing_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:kiosk_preprocessing" name="alg_id"/>
+      <Option type="QString" value="kiosk preprocessing" name="component_description"/>
+      <Option type="double" value="735.5555555555554" name="component_pos_x"/>
+      <Option type="double" value="173.68888888888875" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="native:joinattributestable_1"/>
+      </Option>
+      <Option type="QString" value="r:kiosk_preprocessing_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:select_kiosk_all_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:select_kiosk_all" name="alg_id"/>
+      <Option type="QString" value="select kiosk all" name="component_description"/>
+      <Option type="double" value="1142.3111111111111" name="component_pos_x"/>
+      <Option type="double" value="172.26666666666654" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="r:kiosk_EDA_all_1"/>
+      </Option>
+      <Option type="QString" value="r:select_kiosk_all_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="r:ssgi_data_preprocessing_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="r:ssgi_data_preprocessing" name="alg_id"/>
+      <Option type="QString" value="ssgi data preprocessing" name="component_description"/>
+      <Option type="double" value="2160.6222222222223" name="component_pos_x"/>
+      <Option type="double" value="671.4666666666665" name="component_pos_y"/>
+      <Option type="StringList" name="dependencies">
+        <Option type="QString" value="qgis:deletecolumn_1"/>
+        <Option type="QString" value="qgis:deletecolumn_2"/>
+        <Option type="QString" value="qgis:deletecolumn_3"/>
+        <Option type="QString" value="r:db_EDA_select_po_1"/>
+        <Option type="QString" value="r:select_kiosk_all_1"/>
+      </Option>
+      <Option type="QString" value="r:ssgi_data_preprocessing_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option name="params"/>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option type="QString" value="" name="model_group"/>
+  <Option type="QString" value="UCK_Part_2" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="dbpubcounterpointdata">
+      <Option type="List" name="data_types">
+        <Option type="int" value="0"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="DB_Pub_Counter_Point_Data" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="dbpubcounterpointdata" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="gid">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="GID" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="gid" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="native:joinattributestable_1:kiosk_apply_list_gid_dist">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="int" value="-1" name="data_type"/>
+      <Option name="default"/>
+      <Option type="QString" value="kiosk_apply_list_gid_dist" name="description"/>
+      <Option type="int" value="8" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="native:joinattributestable_1:kiosk_apply_list_gid_dist" name="name"/>
+      <Option type="QString" value="sink" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="native:joinattributestable_2:db_pub_counter_apply_list_gid_dist">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="int" value="-1" name="data_type"/>
+      <Option name="default"/>
+      <Option type="QString" value="db_pub_counter_apply_list_gid_dist" name="description"/>
+      <Option type="int" value="8" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="native:joinattributestable_2:db_pub_counter_apply_list_gid_dist" name="name"/>
+      <Option type="QString" value="sink" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="pointdata">
+      <Option type="List" name="data_types">
+        <Option type="int" value="0"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="Kiosk_Point_Data" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="pointdata" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="qgis:deletecolumn_1:SSGI_L_Buff_380M">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="int" value="-1" name="data_type"/>
+      <Option name="default"/>
+      <Option type="QString" value="SSGI_L_Buff_380M" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="qgis:deletecolumn_1:SSGI_L_Buff_380M" name="name"/>
+      <Option type="QString" value="sink" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="qgis:deletecolumn_2:SSGI_M_Buff_380M">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="int" value="-1" name="data_type"/>
+      <Option name="default"/>
+      <Option type="QString" value="SSGI_M_Buff_380M" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="qgis:deletecolumn_2:SSGI_M_Buff_380M" name="name"/>
+      <Option type="QString" value="sink" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="qgis:deletecolumn_3:SSGI_S_Buff_380M">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="int" value="-1" name="data_type"/>
+      <Option name="default"/>
+      <Option type="QString" value="SSGI_S_Buff_380M" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="qgis:deletecolumn_3:SSGI_S_Buff_380M" name="name"/>
+      <Option type="QString" value="sink" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+    </Option>
+    <Option type="Map" name="ssgil">
+      <Option type="List" name="data_types">
+        <Option type="int" value="5"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="SSGI_L" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="ssgil" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="ssgim">
+      <Option type="List" name="data_types">
+        <Option type="int" value="5"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="SSGI_M" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="ssgim" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="ssgis">
+      <Option type="List" name="data_types">
+        <Option type="int" value="5"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="QString" value="SSGI_S" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="ssgis" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="dbpubcounterpointdata">
+      <Option type="QString" value="dbpubcounterpointdata" name="component_description"/>
+      <Option type="double" value="130.39999999999998" name="component_pos_x"/>
+      <Option type="double" value="265.6" name="component_pos_y"/>
+      <Option type="QString" value="dbpubcounterpointdata" name="name"/>
+    </Option>
+    <Option type="Map" name="gid">
+      <Option type="QString" value="gid" name="component_description"/>
+      <Option type="double" value="352.8" name="component_pos_x"/>
+      <Option type="double" value="601.6000000000001" name="component_pos_y"/>
+      <Option type="QString" value="gid" name="name"/>
+    </Option>
+    <Option type="Map" name="pointdata">
+      <Option type="QString" value="pointdata" name="component_description"/>
+      <Option type="double" value="131.2" name="component_pos_x"/>
+      <Option type="double" value="112.79999999999994" name="component_pos_y"/>
+      <Option type="QString" value="pointdata" name="name"/>
+    </Option>
+    <Option type="Map" name="ssgil">
+      <Option type="QString" value="ssgil" name="component_description"/>
+      <Option type="double" value="126.39999999999998" name="component_pos_x"/>
+      <Option type="double" value="488.8000000000001" name="component_pos_y"/>
+      <Option type="QString" value="ssgil" name="name"/>
+    </Option>
+    <Option type="Map" name="ssgim">
+      <Option type="QString" value="ssgim" name="component_description"/>
+      <Option type="double" value="124" name="component_pos_x"/>
+      <Option type="double" value="602.4000000000002" name="component_pos_y"/>
+      <Option type="QString" value="ssgim" name="name"/>
+    </Option>
+    <Option type="Map" name="ssgis">
+      <Option type="QString" value="ssgis" name="component_description"/>
+      <Option type="double" value="120.8" name="component_pos_x"/>
+      <Option type="double" value="711.1999999999999" name="component_pos_y"/>
+      <Option type="QString" value="ssgis" name="name"/>
+    </Option>
+  </Option>
+</Option>

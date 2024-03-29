@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Fully disconnect all nodes in a selection of nodes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for fully_disconnect_nodes_ws {DiagrammeR}"><tr><td>fully_disconnect_nodes_ws {DiagrammeR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Fully disconnect all nodes in a selection of nodes</h2>
+
+<h3>Description</h3>
+
+<p>With a selection of nodes in a graph, remove any edges to or from those
+nodes.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+fully_disconnect_nodes_ws(graph)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>graph</code></td>
+<td>
+<p>A graph object of class <code>dgr_graph</code>.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function makes use of an active selection of nodes (and the function
+ending with <code style="white-space: pre;">_ws</code> hints at this).
+</p>
+<p>Selections of nodes can be performed using the following node selection
+(<code style="white-space: pre;">select_*()</code>) functions: <code><a href="select_nodes.html">select_nodes()</a></code>, <code><a href="select_last_nodes_created.html">select_last_nodes_created()</a></code>,
+<code><a href="select_nodes_by_degree.html">select_nodes_by_degree()</a></code>, <code><a href="select_nodes_by_id.html">select_nodes_by_id()</a></code>, or
+<code><a href="select_nodes_in_neighborhood.html">select_nodes_in_neighborhood()</a></code>.
+</p>
+<p>Selections of nodes can also be performed using the following traversal
+(<code style="white-space: pre;">trav_*()</code>) functions: <code><a href="trav_out.html">trav_out()</a></code>, <code><a href="trav_in.html">trav_in()</a></code>, <code><a href="trav_both.html">trav_both()</a></code>,
+<code><a href="trav_out_node.html">trav_out_node()</a></code>, <code><a href="trav_in_node.html">trav_in_node()</a></code>, <code><a href="trav_out_until.html">trav_out_until()</a></code>, or
+<code><a href="trav_in_until.html">trav_in_until()</a></code>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A graph object of class <code>dgr_graph</code>.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Create an empty graph and
+# add a path of 6 nodes
+graph &lt;-
+  create_graph() %&gt;%
+  add_path(n = 6)
+
+# Select nodes `3` and `4`
+# and fully disconnect them
+# from the graph
+graph &lt;-
+  graph %&gt;%
+  select_nodes_by_id(
+    nodes = 3:4) %&gt;%
+  fully_disconnect_nodes_ws()
+
+# Get the graph's edge data frame
+graph %&gt;% get_edge_df()
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>DiagrammeR</em> version 1.0.5 <a href="00Index.html">Index</a>]</div>
+</body></html>

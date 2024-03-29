@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Move layout positions of a selection of nodes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for nudge_node_positions_ws {DiagrammeR}"><tr><td>nudge_node_positions_ws {DiagrammeR}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Move layout positions of a selection of nodes</h2>
+
+<h3>Description</h3>
+
+<p>With an active selection of nodes, move the position in either the <code>x</code> or <code>y</code>
+directions, or both. Nodes in the selection that do not have position
+information (i.e., <code>NA</code> values for the <code>x</code> or <code>y</code> node attributes) will be
+ignored.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+nudge_node_positions_ws(graph, dx, dy)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>graph</code></td>
+<td>
+<p>A graph object of class <code>dgr_graph</code>.</p>
+</td></tr>
+<tr valign="top"><td><code>dx</code></td>
+<td>
+<p>A single numeric value specifying the amount that selected nodes
+(with non-<code>NA</code> values for the <code>x</code> and <code>y</code> attributes) will be moved in the
+x direction. A positive value will move nodes right, negative left.</p>
+</td></tr>
+<tr valign="top"><td><code>dy</code></td>
+<td>
+<p>A single numeric value specifying the amount that selected nodes
+(with non-<code>NA</code> values for the <code>x</code> and <code>y</code> attributes) will be moved in the
+y direction. A positive value will move nodes up, negative down.</p>
+</td></tr>
+</table>
+
+
+<h3>Details</h3>
+
+<p>This function makes use of an active selection of nodes (and the function
+ending with <code style="white-space: pre;">_ws</code> hints at this).
+</p>
+<p>Selections of nodes can be performed using the following node selection
+(<code style="white-space: pre;">select_*()</code>) functions: <code><a href="select_nodes.html">select_nodes()</a></code>, <code><a href="select_last_nodes_created.html">select_last_nodes_created()</a></code>,
+<code><a href="select_nodes_by_degree.html">select_nodes_by_degree()</a></code>, <code><a href="select_nodes_by_id.html">select_nodes_by_id()</a></code>, or
+<code><a href="select_nodes_in_neighborhood.html">select_nodes_in_neighborhood()</a></code>.
+</p>
+<p>Selections of nodes can also be performed using the following traversal
+(<code style="white-space: pre;">trav_*()</code>) functions: <code><a href="trav_out.html">trav_out()</a></code>, <code><a href="trav_in.html">trav_in()</a></code>, <code><a href="trav_both.html">trav_both()</a></code>,
+<code><a href="trav_out_node.html">trav_out_node()</a></code>, <code><a href="trav_in_node.html">trav_in_node()</a></code>, <code><a href="trav_out_until.html">trav_out_until()</a></code>, or
+<code><a href="trav_in_until.html">trav_in_until()</a></code>.
+</p>
+
+
+<h3>Value</h3>
+
+<p>A graph object of class <code>dgr_graph</code>.
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+# Create a simple graph with 4 nodes
+graph &lt;-
+  create_graph() %&gt;%
+  add_node(
+    type = "a",
+    label = "one") %&gt;%
+  add_node(
+    type = "a",
+    label = "two") %&gt;%
+  add_node(
+    type = "b",
+    label = "three") %&gt;%
+  add_node(
+    type = "b",
+    label = "four")
+
+# Add position information to each of
+# the graph's nodes
+graph &lt;-
+  graph %&gt;%
+  set_node_position(
+    node = 1, x = 1, y = 1) %&gt;%
+  set_node_position(
+    node = 2, x = 2, y = 2) %&gt;%
+  set_node_position(
+    node = 3, x = 3, y = 3) %&gt;%
+  set_node_position(
+    node = 4, x = 4, y = 4)
+
+# Select all of the graph's nodes using the
+# `select_nodes()` function (and only
+# specifying the graph object)
+graph &lt;- select_nodes(graph)
+
+# Move the selected nodes (all the nodes,
+# in this case) 5 units to the right
+graph &lt;-
+  graph %&gt;%
+  nudge_node_positions_ws(
+    dx = 5, dy = 0)
+
+# View the graph's node data frame
+graph %&gt;% get_node_df()
+
+# Now select nodes that have `type == "b"`
+# and move them in the `y` direction 2 units
+# (the graph still has an active selection
+# and so it must be cleared first)
+graph &lt;-
+  graph %&gt;%
+  clear_selection() %&gt;%
+  select_nodes(
+    conditions = type == "b") %&gt;%
+  nudge_node_positions_ws(
+    dx = 0, dy = 2)
+
+# View the graph's node data frame
+graph %&gt;% get_node_df()
+
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>DiagrammeR</em> version 1.0.5 <a href="00Index.html">Index</a>]</div>
+</body></html>
